@@ -1,0 +1,37 @@
+{
+  "name": "galaxy-sixth-sensey",
+  "version": "1.0.0",
+  "private": true,
+  "description": "galaxy-sixth-sensey",
+  "author": "aiya000",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.1.5",
+    "gatsby": "^4.24.7",
+    "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-mdx": "^4.3.0",
+    "gatsby-plugin-postcss": "^5.24.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
+    "postcss": "^8.4.18",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.8.3"
+  }
+}
