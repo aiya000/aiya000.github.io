@@ -1,19 +1,26 @@
 {
   "name": "galaxy-sixth-sensey",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "galaxy-sixth-sensey",
   "author": "aiya000",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "dev": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "run-s lint:eslint lint:stylelint:css lint:prettier",
+    "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx,.vue ./src",
+    "lint:stylelint:css": "stylelint ./src/**/*.{css,scss,sass,vue}",
+    "lint:prettier": "prettier --check ./src/**/*.{js,jsx,ts,tsx,vue,css,scss,sass}",
+    "fix": "run-s fix:eslint fix:prettier fix:stylelint:css",
+    "fix:eslint": "eslint --fix --ext .js,.jsx,.ts,.tsx,.vue ./src",
+    "fix:stylelint:css": "stylelint --fix ./src/**/*.{css,scss,sass,vue}",
+    "fix:prettier": "prettier --write ./src/**/*.{js,jsx,ts,tsx,vue,css,scss,sass}"
   },
   "dependencies": {
     "@mdx-js/react": "^2.1.5",
@@ -32,6 +39,16 @@
     "@types/node": "^17.0.45",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "gatsby-source-filesystem": "^4.24.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.14.1",
     "typescript": "^4.8.3"
   }
 }
