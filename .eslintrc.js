@@ -91,6 +91,23 @@ module.exports = {
         allow: ['arrowFunctions'],
       },
     ],
+    'import/order': [
+      'warn',
+      {
+        groups: ['builtin', 'external', 'parent', 'sibling', 'index', 'object', 'type'],
+        pathGroups: [
+          {
+            pattern: '@alias/**',
+            group: 'parent',
+            position: 'before',
+          },
+        ],
+        alphabetize: {
+          order: 'asc',
+        },
+        'newlines-between': 'always',
+      },
+    ],
   },
 
   settings: {
