@@ -1,30 +1,17 @@
-import { graphql, PageProps } from 'gatsby'
 import React from 'react'
 
-import { raise } from '@/modules/Error'
-
-export type Props<PageQuery extends object> = PageProps<PageQuery> & {
+export type Props = {
   /**
    * e.g. 'Home', 'About', ...
    */
   routeName: string
 }
 
-export const query = graphql`
-  query Seo {
-    site {
-      siteMetadata {
-        title
-        siteUrl
-      }
-    }
-  }
-`
+const Seo: React.FC<Props> = ({ routeName }) => {
+  // NOTE: Please tell me if using both PageProps and Props is able.
 
-const Seo: React.FC<Props<Queries.SeoQuery>> = ({ routeName, data }) => {
-  const title = data?.site?.siteMetadata?.title ?? raise('Invalid query or config')
-  const siteUrl = data?.site?.siteMetadata?.siteUrl ?? raise('Invalid query or config')
-
+  const title = 'galaxy-sixth-sensey'
+  const siteUrl = 'https://aiya000.github.io'
   const fullTitle = `${title} - ${routeName}`
   const description = 'ギャラクシー・シックス・センスワイ / プログラミング・数学・一次創作'
   const ogImagePath = '/images/mu.png'

@@ -1,17 +1,17 @@
+import { HeadFC } from 'gatsby'
 import React from 'react'
 
-import { heading } from './index.css'
+import * as style from './index.css'
 
-import type { HeadFC } from 'gatsby'
-
+import Seo from '@/components/Seo'
 import Layout from '@/components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1 className={heading}>Hello world!</h1>
+    <h1 className={style.heading}>Hello world!</h1>
   </Layout>
 )
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <Seo routeName="Home" />
