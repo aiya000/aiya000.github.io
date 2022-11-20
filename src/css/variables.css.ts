@@ -44,3 +44,46 @@ export const color = {
   silver: '#696969',
   white: '#ffffff',
 } as const
+
+/**
+ * <h1>text</h1>
+ * to
+ * ■ text
+ * ^^ this!
+ *
+ * ```typescript
+ * export const heading = style({
+ *   ...headingDotStyle.h1,
+ *   fontSize: 24,
+ *   ':before': {
+ *     ...headingDotStyle.h1Before,
+ *   },
+ * })
+ *
+ * globalStyle('h1', headingDotStyle.h1)
+ * globalStyle('h1:before', headingDotStyle.h1Before)
+ * ```
+ */
+export const headingDotStyle = (() => {
+  const heading = {
+    paddingLeft: 8,
+    position: 'relative',
+  } as const
+
+  const makeDot = (dotWidth: number) =>
+    Object.freeze({
+      background: color.black,
+      content: '',
+      height: '100%',
+      left: 0,
+      position: 'absolute',
+      width: dotWidth,
+    })
+
+  return {
+    h1: heading,
+    h1Before: makeDot(4),
+    h2: heading,
+    h2Before: makeDot(8),
+  } as const
+})()

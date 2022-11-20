@@ -1,11 +1,11 @@
 import { Menu, Transition } from '@headlessui/react'
 import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 import { useMediaQuery } from 'usehooks-ts'
 
 import * as style from './navbar.css'
 
+import perolalaImage from '@/assets/images/perolala.png'
 import { mediaMinWidth } from '@/css/variables.css'
 
 const Navbar: React.FC = () => {
@@ -14,7 +14,8 @@ const Navbar: React.FC = () => {
   return (
     <div className={style.navbar}>
       <Link className={style.logo} to="/">
-        <StaticImage alt="logo" src="perolala.png" width={100} />
+        {/* TODO: GatsbyImageかStaticImage使う */}
+        <img alt="logo" src={perolalaImage} width={100} />
         <span className={style.logoName}>galaxy-sixth-sensey</span>
       </Link>
       {isLarger ? <DirectLinks /> : <LinksMenu />}
@@ -46,6 +47,7 @@ export const LinksMenu: React.FC = () => (
     <Menu.Button as="div" className={style.menuButton}>
       三
     </Menu.Button>
+    {/* TODO: Transitionでポップアップ感つくる */}
     <Transition>
       <Menu.Items className={style.menuItems}>
         <Menu.Item>

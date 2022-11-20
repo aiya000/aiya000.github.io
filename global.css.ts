@@ -1,5 +1,5 @@
 import { globalStyle } from '@vanilla-extract/css'
-import { mediaMinWidth, color } from '@/css/variables.css'
+import { mediaMinWidth } from '@/css/variables.css'
 
 globalStyle('html', {
   '@media': {

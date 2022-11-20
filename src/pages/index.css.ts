@@ -10,11 +10,13 @@ export const container = style({
 })
 
 export const logo = style({
-  width: '90%',
+  marginTop: 32,
+  maxWidth: '70%',
+  width: '50%',
 })
 
 export const blogName = style({
-  fontSize: 32,
+  fontSize: 24,
 
   '@media': {
     [mediaMinWidth.pc]: {
