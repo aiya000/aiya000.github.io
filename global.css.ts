@@ -1,5 +1,5 @@
 import { globalStyle } from '@vanilla-extract/css'
-import { mediaMinWidth } from '@/css/variables.css'
+import { mediaMinWidth, color } from '@/css/variables.css'
 
 globalStyle('html', {
   '@media': {
@@ -18,4 +18,9 @@ globalStyle('html', {
 globalStyle('body', {
   background: 'linear-gradient(90deg, #2c3d4e, #231917)',
   margin: 0,
+})
+
+globalStyle('a', {
+  color: 'chocolate',
+  textDecoration: 'underline dotted chocolate',
 })

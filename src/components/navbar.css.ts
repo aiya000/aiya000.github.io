@@ -12,9 +12,10 @@ export const navbar = style({
 })
 
 export const logo = style({
+  alignItems: 'center',
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center',
+  textDecoration: 'none',
 })
 
 export const logoName = style({

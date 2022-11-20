@@ -7,8 +7,9 @@ import Seo from '@/components/Seo'
 import Layout from '@/components/layout'
 
 const IndexPage = () => (
-  <Layout>
-    <h1 className={style.heading}>Hello world!</h1>
+  <Layout className={style.container}>
+    <img src="/images/perolala.png" alt="logo" className={style.logo} />
+    <h1 className={style.blogName}>aiya000のメモ帳</h1>
   </Layout>
 )
 
