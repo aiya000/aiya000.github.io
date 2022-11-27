@@ -87,3 +87,7 @@ export const headingDotStyle = (() => {
     h2Before: makeDot(8),
   } as const
 })()
+
+export const zIndex = {
+  front: 100,
+} as const

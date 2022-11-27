@@ -1,5 +1,6 @@
 import { style } from '@vanilla-extract/css'
 
+import { zIndex } from '@/css/variables.css'
 import { mediaMinWidth, color } from '@/css/variables.css'
 
 export const navbar = style({
@@ -60,6 +61,7 @@ export const menuItems = style({
   padding: '32px 8px',
   position: 'absolute',
   right: 16,
+  zIndex: zIndex.front,
 })
 
 export const menuItem = style([
