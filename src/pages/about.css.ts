@@ -10,3 +10,8 @@ export const heading = style({
     ...headingDotStyle.h1Before,
   },
 })
+
+export const myLogo = style({
+  borderRadius: 8,
+  marginLeft: 16,
+})

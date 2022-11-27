@@ -4,13 +4,13 @@ import { mediaMinWidth } from '@/css/variables.css'
 globalStyle('html', {
   '@media': {
     [mediaMinWidth.sp]: {
-      fontSize: 22,
+      fontSize: 16,
     },
     [mediaMinWidth.tablet]: {
       fontSize: 20,
     },
     [mediaMinWidth.pc]: {
-      fontSize: 16,
+      fontSize: 22,
     },
   },
 })
@@ -23,4 +23,8 @@ globalStyle('body', {
 globalStyle('a', {
   color: 'chocolate',
   textDecoration: 'underline dotted chocolate',
+})
+
+globalStyle('p', {
+  overflowWrap: 'break-word',
 })

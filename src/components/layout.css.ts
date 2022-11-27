@@ -14,5 +14,5 @@ export const container = style({
 
 export const content = style({
   backgroundColor: color.white,
-  padding: 8,
+  padding: 20,
 })

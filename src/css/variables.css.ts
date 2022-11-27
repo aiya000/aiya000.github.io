@@ -66,7 +66,7 @@ export const color = {
  */
 export const headingDotStyle = (() => {
   const heading = {
-    paddingLeft: 8,
+    paddingLeft: 16,
     position: 'relative',
   } as const
 
