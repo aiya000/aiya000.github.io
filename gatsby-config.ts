@@ -18,6 +18,7 @@ const config: GatsbyConfig = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-vanilla-extract',
     'gatsby-transformer-sharp',
+
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -25,6 +26,17 @@ const config: GatsbyConfig = {
         path: './src/pages/',
       },
       __key: 'pages',
+    },
+
+    {
+      resolve: 'gatsby-remark-prismjs',
+      options: {
+        classPrefix: 'language-',
+        inlineCodeMarker: null,
+        aliases: {},
+        showLineNumbers: true,
+        noInlineHighlight: false,
+      },
     },
   ],
 }
