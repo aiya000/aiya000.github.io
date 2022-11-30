@@ -2,23 +2,8 @@ import { style } from '@vanilla-extract/css'
 
 import * as v from '@/css/variables.css'
 
-export const heading1 = style({
-  ...v.headingDotStyle.h1,
-  fontSize: 24,
-
-  ':before': {
-    ...v.headingDotStyle.h1Before,
-  },
-})
-
-export const heading2 = style({
-  ...v.headingDotStyle.h2,
-  fontSize: 20,
-
-  ':before': {
-    ...v.headingDotStyle.h2Before,
-  },
-})
+export const h1 = style(v.h1)
+export const h2 = style(v.h2)
 
 export const text = style({
   border: `solid 1px ${v.color.black}`,

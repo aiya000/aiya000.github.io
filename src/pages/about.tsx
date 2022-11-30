@@ -8,7 +8,7 @@ import Layout from '@/components/layout'
 const About: React.FC = () => (
   <Layout>
     <article>
-      <h1 className={style.heading}>このブログについて</h1>
+      <h1 className={style.h1}>このブログについて</h1>
       <img alt="my-logo" src={meSquareImage} className={style.myLogo} />
       <p>技術記事・イベントの参加記事・日記や私的な備考録を書いていきます。</p>
       <p>記事中のコードについては、コンパイルで検証するように心がけています。</p>

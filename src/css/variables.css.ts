@@ -52,41 +52,71 @@ export const color = {
  * ^^ this!
  *
  * ```typescript
- * export const heading = style({
- *   ...headingDotStyle.h1,
- *   fontSize: 24,
- *   ':before': {
- *     ...headingDotStyle.h1Before,
- *   },
- * })
+ * import { globalStyle } from '@vanilla-extract/css'
+ * import * as v from '@/css/variables.css'
+ * ```
  *
- * globalStyle('h1', headingDotStyle.h1)
- * globalStyle('h1:before', headingDotStyle.h1Before)
+ * Should use with [[globalH1Before]].
+ */
+export const globalH1 = {
+  fontSize: 24,
+  paddingLeft: 16,
+  position: 'relative',
+} as const
+
+/**
+ * A :before part of [[globalH1]].
+ */
+export const globalH1Before = {
+  background: color.black,
+  content: '',
+  height: '100%',
+  left: 0,
+  position: 'absolute',
+  width: 4,
+} as const
+
+/**
+ * <h1>text</h1>
+ * to
+ * ■ text
+ * ^^ this!
+ *
+ * ```typescript
+ * import { style } from '@vanilla-extract/css'
+ * import * as v from '@/css/variables.css'
+ * export const h1 = style(v.h1)
  * ```
  */
-export const headingDotStyle = (() => {
-  const heading = {
-    paddingLeft: 16,
-    position: 'relative',
-  } as const
+export const h1 = {
+  ...globalH1,
+  ':before': {
+    ...globalH1Before,
+  },
+} as const
 
-  const makeDot = (dotWidth: number) =>
-    Object.freeze({
-      background: color.black,
-      content: '',
-      height: '100%',
-      left: 0,
-      position: 'absolute',
-      width: dotWidth,
-    })
+/**
+ * Simular to [[globalH1]].
+ */
+export const globalH2 = {
+  ...globalH1,
+  fontSize: 20,
+} as const
 
-  return {
-    h1: heading,
-    h1Before: makeDot(4),
-    h2: heading,
-    h2Before: makeDot(8),
-  } as const
-})()
+export const globalH2Before = {
+  ...globalH1Before,
+  width: 8,
+} as const
+
+/**
+ * Simular to [[h1]].
+ */
+export const h2 = {
+  ...globalH2,
+  ':before': {
+    ...globalH2Before,
+  },
+} as const
 
 export const zIndex = {
   front: 100,

@@ -13,8 +13,8 @@ import Layout from '@/components/layout'
 const Profile: React.FC = () => (
   <Layout>
     <article>
-      <h1 className={style.heading1}>筆者のプロフィール</h1>
-      <h2 className={style.heading2}>aiya000（あいや）</h2>
+      <h1 className={style.h1}>筆者のプロフィール</h1>
+      <h2 className={style.h2}>aiya000（あいや）</h2>
 
       <div className={style.myIcons}>
         <img className={style.myLatestIcon} src={mu2Image} alt="my-latest-logo" />
