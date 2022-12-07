@@ -33,7 +33,7 @@ const config: GatsbyConfig = {
         name: 'pages-works',
         path: './src/pages/works.mdx',
       },
-      __key: 'pages',
+      __key: 'pages-works',
     },
 
     {
