@@ -1,8 +1,10 @@
+import { HeadFC } from 'gatsby'
 import React from 'react'
 
 import * as style from './about.css'
 
 import meSquareImage from '@/assets/images/me-square.png'
+import Seo from '@/components/Seo'
 import Layout from '@/components/layout'
 
 const About: React.FC = () => (
@@ -26,3 +28,5 @@ const About: React.FC = () => (
 )
 
 export default About
+
+export const Head: HeadFC = () => <Seo routeName="About" />

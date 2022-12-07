@@ -1,3 +1,4 @@
+import { HeadFC } from 'gatsby'
 import React from 'react'
 
 import * as style from './profile.css'
@@ -8,6 +9,7 @@ import meSquareImage from '@/assets/images/me-square.png'
 import meTeokureImage from '@/assets/images/me-teokure.png'
 import muImage from '@/assets/images/mu.png'
 import mu2Image from '@/assets/images/mu2.png'
+import Seo from '@/components/Seo'
 import Layout from '@/components/layout'
 
 const Profile: React.FC = () => (
@@ -74,3 +76,5 @@ const Profile: React.FC = () => (
 )
 
 export default Profile
+
+export const Head: HeadFC = () => <Seo routeName="Profile" />
