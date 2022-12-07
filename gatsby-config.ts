@@ -35,6 +35,14 @@ const config: GatsbyConfig = {
       },
       __key: 'pages-works',
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'posts',
+        path: './src/posts',
+      },
+      __key: 'posts',
+    },
 
     {
       resolve: 'gatsby-transformer-remark',
