@@ -27,6 +27,7 @@ exports.onCreateNode = ({ node, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
+
   const query = await graphql(`
     query {
       allMarkdownRemark {
@@ -41,11 +42,22 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
-  const template = path.resolve('./src/post.tsx')
   for (edge of query.data.allMarkdownRemark.edges) {
+    const postPath = `/posts/${edge.node.fields.slug}`
+
     createPage({
-      component: template,
-      path: `/posts/${edge.node.fields.slug}`,
+      component: path.resolve('./src/post.tsx'),
+      path: postPath,
+      context: {
+        slug: edge.node.fields.slug,
+      },
+    })
+
+    // For compatible with my old blog's URL, redirect to avobe url.
+    // NOTE: By unknown reason, createRedirect is not working.
+    createPage({
+      component: path.resolve('./src/post-html-redirect.tsx'),
+      path: `${postPath}.html`,
       context: {
         slug: edge.node.fields.slug,
       },
