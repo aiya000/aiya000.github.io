@@ -1,15 +1,15 @@
 import { globalStyle } from '@vanilla-extract/css'
-import { mediaMinWidth } from '@/css/variables.css'
+import * as v from '@/css/variables.css'
 
 globalStyle('html', {
   '@media': {
-    [mediaMinWidth.sp]: {
+    [v.mediaMinWidth.sp]: {
       fontSize: 16,
     },
-    [mediaMinWidth.tablet]: {
+    [v.mediaMinWidth.tablet]: {
       fontSize: 20,
     },
-    [mediaMinWidth.pc]: {
+    [v.mediaMinWidth.pc]: {
       fontSize: 22,
     },
   },
@@ -28,3 +28,15 @@ globalStyle('a', {
 globalStyle('p', {
   overflowWrap: 'break-word',
 })
+
+// For @/pages/works.tsx
+globalStyle('.pages-works h1', v.globalH1)
+globalStyle('.pages-works h1:before', v.globalH1Before)
+globalStyle('.pages-works h2', v.globalH2)
+globalStyle('.pages-works h2:before', v.globalH2Before)
+
+// For @/posts.tsx
+globalStyle('.markdown-entry h1', v.globalH1)
+globalStyle('.markdown-entry h1:before', v.globalH1Before)
+globalStyle('.markdown-entry h2', v.globalH2)
+globalStyle('.markdown-entry h2:before', v.globalH2Before)
