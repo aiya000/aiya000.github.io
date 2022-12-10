@@ -16,7 +16,7 @@ globalStyle('html', {
 })
 
 globalStyle('body', {
-  background: 'linear-gradient(90deg, #2c3d4e, #231917)',
+  background: `linear-gradient(90deg, ${v.color.dark}, ${v.color.darker})`,
   margin: 0,
 })
 

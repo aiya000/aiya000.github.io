@@ -2,28 +2,39 @@ import { HeadFC, graphql } from 'gatsby'
 import React from 'react'
 
 import Seo from '@/components/Seo'
+import WriterProfile from '@/components/WriterProfile'
 import Layout from '@/components/layout'
+import { raise } from '@/modules/Error'
 
 /**
  * A template for src/posts/*.md
  */
 const Post: React.FC<{ data: Queries.PostPageQuery }> = ({ data }) => {
   return (
-    <Layout>
-      <article>
-        <div
-          className="markdown-entry"
-          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
-        />
-      </article>
-    </Layout>
+    <div>
+      <Layout>
+        <article>
+          <div
+            className="markdown-entry"
+            dangerouslySetInnerHTML={{
+              __html: data.markdownRemark?.html ?? raise('.html not found.'),
+            }}
+          />
+        </article>
+      </Layout>
+
+      <WriterProfile />
+    </div>
   )
 }
 
 export default Post
 
-export const Head: HeadFC<Queries.PostPageQuery> = ({ data }: Queries.PostPageQuery) => (
-  <Seo routeName={data.markdownRemark.frontmatter.title} />
+// TODO: Don't ignore eslint.
+// eslint-disable-next-line react/prop-types
+export const Head: HeadFC<Queries.PostPageQuery> = ({ data }) => (
+  // eslint-disable-next-line react/prop-types
+  <Seo routeName={data.markdownRemark?.frontmatter?.title ?? raise('.title not found.')} />
 )
 
 export const query = graphql`

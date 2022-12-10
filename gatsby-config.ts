@@ -37,6 +37,20 @@ const config: GatsbyConfig = {
     },
 
     {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 700,
+            },
+          },
+        ],
+      },
+    },
+
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [

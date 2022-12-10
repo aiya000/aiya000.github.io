@@ -40,7 +40,11 @@ export const mediaMinWidth = {
  */
 export const color = {
   black: '#000000',
-  light: '#b0c4de',
+  blue: '#b0c4de',
+  dark: '#2c3d4e',
+  darker: '#231917',
+  lighter: '#cdcdcd',
+  sea: '#eff6fe',
   silver: '#696969',
   white: '#ffffff',
 } as const
