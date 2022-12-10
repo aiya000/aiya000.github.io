@@ -30,14 +30,6 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'pages-works',
-        path: './src/pages/works.mdx',
-      },
-      __key: 'pages-works',
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
         name: 'posts',
         path: './src/posts',
       },

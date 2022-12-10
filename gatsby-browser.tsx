@@ -1,6 +1,6 @@
 import './global.css'
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
-import 'prismjs/themes/prism-solarizedlight.css'
+import 'prismjs/themes/prism-twilight.css'
 
 import React from 'react'
 import { MDXProvider } from '@mdx-js/react'

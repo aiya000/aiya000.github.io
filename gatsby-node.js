@@ -12,6 +12,9 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 }
 
 // https://qiita.com/hththt/items/a6a6fa7d2ee90b0cd854#slug%E3%81%A8%E3%81%AF
+/**
+ * Generates posts's slug automatically.
+ */
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions
 
@@ -25,6 +28,9 @@ exports.onCreateNode = ({ node, actions }) => {
   }
 }
 
+/**
+ * Creates posts pages.
+ */
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 

@@ -40,3 +40,14 @@ globalStyle('.markdown-entry h1', v.globalH1)
 globalStyle('.markdown-entry h1:before', v.globalH1Before)
 globalStyle('.markdown-entry h2', v.globalH2)
 globalStyle('.markdown-entry h2:before', v.globalH2Before)
+
+// https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/
+globalStyle('.gatsby-highlight', {
+  overflow: 'auto',
+})
+globalStyle('.gatsby-highlight pre[class*="language-"].line-numbers', {
+  padding: '0 0 0 74px',
+})
+globalStyle('.gatsby-highlight pre[class*="language-"].line-numbers .line-numbers-rows', {
+  padding: '0 0 0 16px',
+})
