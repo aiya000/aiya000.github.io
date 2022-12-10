@@ -62,6 +62,11 @@ export const globalH1 = {
   fontSize: 24,
   paddingLeft: 16,
   position: 'relative',
+  '@media': {
+    [mediaMinWidth.pc]: {
+      fontSize: 30,
+    },
+  },
 } as const
 
 /**
@@ -101,6 +106,12 @@ export const h1 = {
 export const globalH2 = {
   ...globalH1,
   fontSize: 20,
+
+  '@media': {
+    [mediaMinWidth.pc]: {
+      fontSize: 26,
+    },
+  },
 } as const
 
 export const globalH2Before = {
@@ -119,5 +130,8 @@ export const h2 = {
 } as const
 
 export const zIndex = {
+  /**
+   * Most front.
+   */
   front: 100,
 } as const
