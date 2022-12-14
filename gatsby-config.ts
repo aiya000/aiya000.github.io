@@ -13,7 +13,6 @@ const config: GatsbyConfig = {
 
   plugins: [
     'gatsby-plugin-image',
-    'gatsby-plugin-mdx',
     'gatsby-plugin-postcss',
     'gatsby-plugin-sharp',
     'gatsby-plugin-twitter',
@@ -38,23 +37,15 @@ const config: GatsbyConfig = {
     },
 
     {
-      resolve: 'gatsby-plugin-mdx',
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 700,
-            },
-          },
-        ],
-      },
-    },
-
-    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1000,
+            },
+          },
           {
             resolve: 'gatsby-remark-prismjs',
             options: {
