@@ -14,7 +14,7 @@ VRChatにはまった結果ワールド作成沼にもはまり、最近はあ�
 
 求める結果は下記のような、`HabakiRoom.prefab`と、その最低限の依存関係のみが入ったunitypackageを作成すること。
 
-![](./2020-09-01-unity-make-unitypackage-with-minimum-dependencies/1.png)
+![](/2020-09-01-unity-make-unitypackage-with-minimum-dependencies/1.png)
 
 具体的には――
 
@@ -37,9 +37,9 @@ VRChatにはまった結果ワールド作成沼にもはまり、最近はあ�
 とはいえ、簡単なものです。
 
 1. Projectウィンドウで、ターゲットのprefabをクリックする
-  - <div class="wrap-fluid">![](./2020-09-01-unity-make-unitypackage-with-minimum-dependencies/2.png)</div>
+  - ![](/2020-09-01-unity-make-unitypackage-with-minimum-dependencies/2.png)
 2. そのまま`Export Package...`する
-  - ![](./2020-09-01-unity-make-unitypackage-with-minimum-dependencies/3.png)
+  - ![](/2020-09-01-unity-make-unitypackage-with-minimum-dependencies/3.png)
 
 これで完了です。
 

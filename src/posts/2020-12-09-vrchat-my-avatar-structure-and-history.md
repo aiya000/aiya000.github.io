@@ -48,9 +48,7 @@ VRChatはじめたての頃って、「アバターってなに？」って感�
 
 ちなみに、今の私のアバターはこのような感じです:point_down:
 
-<blockquote class="twitter-tweet">
-<p lang="ja" dir="ltr">こんにちは<br>「あいや」と申します！<br><br><br>「かわいい」が大好きで、女の子になるのを目指してます🐕️🎀<br><br>「あいちゃん」って呼ばれてます✨<br>呼ばれたいです……<br><br>甘えさせてくれる方、募集中です💕(,,&gt;᎑&lt;,,)<br><br>よろしくおねがいします✨<a href="https://twitter.com/hashtag/VRChat?src=hash&amp;ref_src=twsrc%5Etfw">#VRChat</a><a href="https://twitter.com/hashtag/VRChat%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F?src=hash&amp;ref_src=twsrc%5Etfw">#VRChat始めました</a> <a href="https://t.co/fPAHR67TtO">pic.twitter.com/fPAHR67TtO</a></p>&mdash; あいや@VRChat＆ボイトレ (@aiya000_vrchat) <a href="https://twitter.com/aiya000_vrchat/status/1335597258599923713?ref_src=twsrc%5Etfw">December 6, 2020</a>
-</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+（― 検閲により削除 ―）
 
 # まとめ
 
@@ -80,15 +78,11 @@ Visitorは誰もがVRChatの魅力に惚れひれ伏すか、あるいは戸惑�
 
 - [Lua Avatar World](https://vrchat.com/home/launch?worldId=wrld_eb63bf25-ee98-4241-b682-75fcc3f86db8&instanceId=28598)
 
-<div class="wrap-fluid">
-![](./2020-12-09-vrchat-my-avatar-structure-and-history/lua-entrance.png)
-</div>
+![](/2020-12-09-vrchat-my-avatar-structure-and-history/lua-entrance.png)
 
 Luaちゃんの様子
 
-<div class="wrap-fluid">
-![](./2020-12-09-vrchat-my-avatar-structure-and-history/lua-example.png)
-</div>
+![](/2020-12-09-vrchat-my-avatar-structure-and-history/lua-example.png)
 
 Visitorさんはぜひ、アバターワールドを探してみてね:sparkles:
 
@@ -124,9 +118,7 @@ New User。
 アバターにお金を出すのがまだ億劫な人には、最高の値段。
 今だからこそ「値段でアバターを決めるのはもったいない」と思いますが、当時の価値観にとって、うってつけの選択肢でした。
 
-<div class="wrap-fluid">
-![私の '微' 改変済みRICHちゃん](/images/posts/2020-12-09-vrchat-my-avatar-structure-and-history/necomaid-rich-example.png)
-</div>
+![私の '微' 改変済みRICHちゃん](/2020-12-09-vrchat-my-avatar-structure-and-history/necomaid-rich-example.png)
 
 ちなみに「**DynamicBone**は絶対に買った方がいい」と誰もかれもに言われたので、ここでDynamicBoneはがんばって買いました。
 （今ではやはりこれも、安い買い物だったと思います。）
@@ -150,9 +142,7 @@ New User。
 楽しくBoothウィンドウショッピングをして、服を探しましょう。
 すごい楽しいんです。Boothウィンドウショッピング！
 
-<div class="wrap-fluid">
-![Booth画面](/images/posts/2020-12-09-vrchat-my-avatar-structure-and-history/window-shopping-on-booth.png)
-</div>
+![Booth画面](/2020-12-09-vrchat-my-avatar-structure-and-history/window-shopping-on-booth.png)
 
 ## キッシュちゃん素体
 
@@ -193,9 +183,7 @@ Blenderで解決できることもありますが、……:point_up:
 
 ともあれ体が手に入ったので、服を着れます。
 
-<div class="wrap-fluid">
-![](./2020-12-09-vrchat-my-avatar-structure-and-history/necomaid-rich-quche-nbody.png)
-</div>
+![](/2020-12-09-vrchat-my-avatar-structure-and-history/necomaid-rich-quche-nbody.png)
 
 服を選ぶよー！！
 
@@ -205,9 +193,7 @@ Blenderで解決できることもありますが、……:point_up:
 
 私が選んだのは、このジャージです。
 
-<div class="wrap-fluid">
-![](./2020-12-09-vrchat-my-avatar-structure-and-history/necomaid-rich-onsen-casual-example.png)
-</div>
+![](/2020-12-09-vrchat-my-avatar-structure-and-history/necomaid-rich-onsen-casual-example.png)
 
 - [VRChat想定　着せ替え改変用3Dモデル　汎用型ジャージ](https://booth.pm/ja/items/1337770)
 
@@ -294,16 +280,10 @@ A3BoxはObjectSwitch以外にもいくつかの機能を持ちます。
 
 あなたのバーチャル自我としあわせ・平穏が、ありますよう祈っております:sparkles:
 
-<div class="wrap-fluid">
-![](./2020-12-09-vrchat-my-avatar-structure-and-history/my-avatar-1.jpg)
-</div>
+![](/2020-12-09-vrchat-my-avatar-structure-and-history/my-avatar-1.jpg)
 
-<div class="wrap-fluid">
-![](./2020-12-09-vrchat-my-avatar-structure-and-history/my-avatar-2.jpg)
-</div>
+![](/2020-12-09-vrchat-my-avatar-structure-and-history/my-avatar-2.jpg)
 
-<div class="wrap-fluid">
-![](./2020-12-09-vrchat-my-avatar-structure-and-history/my-avatar-3.png)
-</div>
+![](/2020-12-09-vrchat-my-avatar-structure-and-history/my-avatar-3.png)
 
 おわり。

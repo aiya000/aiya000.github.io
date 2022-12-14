@@ -115,11 +115,11 @@ public class Foo : UdonSharpBehaviour {
 
 これらのためのGameObjectを作る。
 
-![](./2020-09-13-vrchat-udonsharp-how-to-avoid-udonsynced/setup-x-sync-as-gameobjects.png)
+![](/2020-09-13-vrchat-udonsharp-how-to-avoid-udonsynced/setup-x-sync-as-gameobjects.png)
 
 `Foo`のInspectorでそれらをD&Dして参照させる。
 
-![](./2020-09-13-vrchat-udonsharp-how-to-avoid-udonsynced/using-x-sync.png)
+![](/2020-09-13-vrchat-udonsharp-how-to-avoid-udonsynced/using-x-sync.png)
 
 # 導入
 
@@ -179,11 +179,11 @@ public class Foo : UdonSharpBehaviour {
 次にそれぞれのフィールドの値を保持するものを、GameObjectとして作成してあげます。
 （今回はEmpty Objectの中にまとめて作りました。）
 
-![](./2020-09-13-vrchat-udonsharp-how-to-avoid-udonsynced/setup-x-sync-as-gameobjects.png)
+![](/2020-09-13-vrchat-udonsharp-how-to-avoid-udonsynced/setup-x-sync-as-gameobjects.png)
 
 その後、`Foo`を設定されているGameObjectをクリックし、Public VariablesにそれぞれをD&Dしてあげます。
 
-![](./2020-09-13-vrchat-udonsharp-how-to-avoid-udonsynced/using-x-sync.png)
+![](/2020-09-13-vrchat-udonsharp-how-to-avoid-udonsynced/using-x-sync.png)
 
 設定は以上です。
 

@@ -7,9 +7,7 @@ tags: VRChat, Unity
 
 ミーシェちゃんの下着をHierarchy消しちゃったけど、やっぱり使いたい！
 
-<div class="wrap-fluid">
-![](./2021-04-26-vrchat-put-removed-cloths-again/1.png)
-</div>
+![](/2021-04-26-vrchat-put-removed-cloths-again/1.png)
 
 ## 問題
 
@@ -21,14 +19,12 @@ tags: VRChat, Unity
 
 [^word-mishenka]: 今回下着を着せたい、目的のアバター。
 
-<div class="wrap-fluid">
-![](./2021-04-26-vrchat-put-removed-cloths-again/2.png)
-</div>
+![](/2021-04-26-vrchat-put-removed-cloths-again/2.png)
 
 HierarchyからMisheを削除すると、ずれおちちゃいます。
 `Mishenka/Mishe_underwear`（元`Mishe/Mishe_underwear`）に紐づいたボーンが削除されちゃうので、それはそう。
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/3.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/3.png)
 
 なので「一度削除した服や服飾（ボーンが紐づくGameObject）を復活」させるのは簡単には無理だと思ってましたが……
 できました！
@@ -47,11 +43,11 @@ HierarchyからMisheを削除すると、ずれおちちゃいます。
 
 まずアバタープロジェクトのシーンファイル、ここでは`./Assets/Scenes/SampleScene.unity`をテキストエディタで開きます。
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/4.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/4.png)
 
 テキストを検索して、`Mishenka/Mishe_underwear`のGameObjectを見つけます。
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/5.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/5.png)
 
 さっきからテキトーに「紐づいたボーン」とか言っていますが、その実際の紐づきは`SkinnedMeshRenderer`というコンポーネントに記述されています。
 （残念ながら、その「紐づき」がUnity上から操作できないみたいなので、テキストエディタで開く必要があります。えーん。）
@@ -61,15 +57,15 @@ HierarchyからMisheを削除すると、ずれおちちゃいます。
 今回はその2つめでした。
 （1つめはTransformでした。）
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/6.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/6.png)
 
 そのfileIDで検索して、`SkinnedMeshRenderer`の記述を見つけます。
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/7.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/7.png)
 
 そこに`m_Bones`というのがあるので、場所をマークしておいてください :sparkles:
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/8.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/8.png)
 
 壊れていそうなのがまるわかりですね！
 
@@ -83,11 +79,11 @@ HierarchyからMisheを削除すると、ずれおちちゃいます。
 
 `Mishenka/Mishe_wear`（`underwear`でないGameObject。例えば`Mishe_shoes`とかでもいけるかも。）の`SkinnedMeshRenderer`が持っている`m_Bones`を、先ほど`Mishenka/Mishe_underwear`にしたように見つけます。
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/9.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/9.png)
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/10.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/10.png)
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/11.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/11.png)
 
 めっちゃ正しそう。
 
@@ -97,11 +93,11 @@ HierarchyからMisheを削除すると、ずれおちちゃいます。
 
 最後にコピーした内容を、最初にみつけた`Mishenka/Mishe_underwear`の`SkinnedMeshRenderer`にある`m_Bones`に上書きします。
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/12.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/12.png)
 
 :point_up: コピーっ！
 
-![](./2021-04-26-vrchat-put-removed-cloths-again/13.png)
+![](/2021-04-26-vrchat-put-removed-cloths-again/13.png)
 
 :point_up: ペーストしたよっ！
 
@@ -109,8 +105,6 @@ HierarchyからMisheを削除すると、ずれおちちゃいます。
 
 できた！！
 
-<div class="wrap-fluid">
-![](./2021-04-26-vrchat-put-removed-cloths-again/14.png)
-</div>
+![](/2021-04-26-vrchat-put-removed-cloths-again/14.png)
 
 終わりだよ。

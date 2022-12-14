@@ -3,17 +3,11 @@ title: Spring Tool Suite 4でorg.eclipse.buildship.core.prefsのせいでJAVA_HO
 tags: Java
 ---
 
-<div class="wrap-fluid">
-![](./2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/to-build.png)
-</div>
+![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/to-build.png)
 
-<div class="wrap-fluid">
-![](./2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/compile-error.png)
-</div>
+![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/compile-error.png)
 
-<div class="wrap-fluid">
-![](./2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/compile-error-detail.png)
-</div>
+![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/compile-error-detail.png)
 
 ```
 Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
@@ -27,9 +21,7 @@ Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
 
 - - - - -
 
-<div class="wrap-fluid">
-![](./2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/installed-JREs.png)
-</div>
+![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/installed-JREs.png)
 
 - `Spring Tool Suite 4 > Preferences`
 
@@ -37,9 +29,7 @@ Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
 
 - - - - -
 
-<div class="wrap-fluid">
-![](./2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/debug-config.png)
-</div>
+![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/debug-config.png)
 
 - `プロジェクト名を右クリック > Debug As > Debug Configurations...`
 - `Spring Boot App > プロジェクト名`
@@ -49,9 +39,7 @@ Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
 
 - - - - -
 
-<div class="wrap-fluid">
-![](./2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/environment-variables-to-set.png)
-</div>
+![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/environment-variables-to-set.png)
 
 - `同 > Environment > Environment variables to set`
 - `JAVA_HOME`
@@ -97,15 +85,11 @@ java.home=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
 
 again
 
-<div class="wrap-fluid">
-![](./2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/to-build.png)
-</div>
+![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/to-build.png)
 
 ……！
 
-<div class="wrap-fluid">
-![](./2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/success.png)
-</div>
+![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/success.png)
 
 ```
 Working Directory: /Users/xxxxxx/Repository/rem-server
