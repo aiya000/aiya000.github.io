@@ -9,9 +9,6 @@ globalStyle('html', {
     [v.mediaMinWidth.tablet]: {
       fontSize: 20,
     },
-    [v.mediaMinWidth.pc]: {
-      fontSize: 22,
-    },
   },
 })
 
@@ -40,6 +37,9 @@ globalStyle('.markdown-entry h1', v.globalH1)
 globalStyle('.markdown-entry h1:before', v.globalH1Before)
 globalStyle('.markdown-entry h2', v.globalH2)
 globalStyle('.markdown-entry h2:before', v.globalH2Before)
+globalStyle('.markdown-entry *', {
+  fontSize: 18,
+})
 
 // https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/
 globalStyle('.gatsby-highlight', {

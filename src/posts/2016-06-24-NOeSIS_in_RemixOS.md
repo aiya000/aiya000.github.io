@@ -40,13 +40,12 @@ tags: Linux, ゲーム, 環境, 日記
 ## 発端
 
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="ja"><p lang="ja" dir="ltr">つーかリメイクNOeSIS、RemixOS x86入れたPC(SVF15327EJW)でも動くんかよｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ <a href="https://t.co/1mvVSH4a6s">pic.twitter.com/1mvVSH4a6s</a></p>&mdash; 佃煮 (@Judah0209) <a href="https://twitter.com/Judah0209/status/745612928062132224">2016年6月22日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## どれ？
 
-[![これ](/images/posts/2016-06-24-NOeSIS_in_RemixOS/NOeSIS_remake-icon.png)](https://play.google.com/store/apps/details?id=jp.spw.noe01)  
-[これ](https://play.google.com/store/apps/details?id=jp.spw.noe01)
+[![](/images/posts/2016-06-24-NOeSIS_in_RemixOS/NOeSIS_remake-icon.png)](https://play.google.com/store/apps/details?id=jp.spw.noe01)  
+[](https://play.google.com/store/apps/details?id=jp.spw.noe01)
 
 
 ## 環境
@@ -59,16 +58,16 @@ tags: Linux, ゲーム, 環境, 日記
 
 ※ クリックすると大きくなる
 
-[![1](/images/posts/2016-06-24-NOeSIS_in_RemixOS/1.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/1-full.png)
-[![2](/images/posts/2016-06-24-NOeSIS_in_RemixOS/2.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/2-full.png)
-[![3](/images/posts/2016-06-24-NOeSIS_in_RemixOS/3.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/3-full.png)
-[![4](/images/posts/2016-06-24-NOeSIS_in_RemixOS/4.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/4-full.png)
-[![5](/images/posts/2016-06-24-NOeSIS_in_RemixOS/5.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/5-full.png)
-[![6](/images/posts/2016-06-24-NOeSIS_in_RemixOS/6.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/6-full.png)
-[![7](/images/posts/2016-06-24-NOeSIS_in_RemixOS/7.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/7-full.png)
-[![8](/images/posts/2016-06-24-NOeSIS_in_RemixOS/8.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/8-full.png)
-[![9](/images/posts/2016-06-24-NOeSIS_in_RemixOS/9.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/9-full.png)
-[![10](/images/posts/2016-06-24-NOeSIS_in_RemixOS/10.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/10-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/1.png)](./2016-06-24-NOeSIS_in_RemixOS/1-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/2.png)](./2016-06-24-NOeSIS_in_RemixOS/2-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/3.png)](./2016-06-24-NOeSIS_in_RemixOS/3-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/4.png)](./2016-06-24-NOeSIS_in_RemixOS/4-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/5.png)](./2016-06-24-NOeSIS_in_RemixOS/5-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/6.png)](./2016-06-24-NOeSIS_in_RemixOS/6-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/7.png)](./2016-06-24-NOeSIS_in_RemixOS/7-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/8.png)](./2016-06-24-NOeSIS_in_RemixOS/8-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/9.png)](./2016-06-24-NOeSIS_in_RemixOS/9-full.png)
+[![](./2016-06-24-NOeSIS_in_RemixOS/10.png)](./2016-06-24-NOeSIS_in_RemixOS/10-full.png)
 
 
 ## ヤッタ！
@@ -78,7 +77,7 @@ tags: Linux, ゲーム, 環境, 日記
 
 ## デキナイ
 
-[![11](/images/posts/2016-06-24-NOeSIS_in_RemixOS/11.png)](/images/posts/2016-06-24-NOeSIS_in_RemixOS/11-full.png)  
+[![](./2016-06-24-NOeSIS_in_RemixOS/11.png)](./2016-06-24-NOeSIS_in_RemixOS/11-full.png)  
 僕のPCじゃダブルタップできない X(
 
 - - -
@@ -86,4 +85,4 @@ tags: Linux, ゲーム, 環境, 日記
 　日常生活に飽き飽きしている人、ちょっと世界にのめり込みたい人。  
 NOeSISおすすめなのでやってみてください！
 
-[![これ](/images/posts/2016-06-24-NOeSIS_in_RemixOS/NOeSIS_remake-icon.png)](https://play.google.com/store/apps/details?id=jp.spw.noe01)  
+[![](./2016-06-24-NOeSIS_in_RemixOS/NOeSIS_remake-icon.png)](https://play.google.com/store/apps/details?id=jp.spw.noe01)  

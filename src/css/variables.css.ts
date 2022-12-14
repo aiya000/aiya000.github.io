@@ -109,6 +109,7 @@ export const h1 = {
  */
 export const globalH2 = {
   ...globalH1,
+  marginTop: 48,
   fontSize: 20,
 
   '@media': {

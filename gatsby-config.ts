@@ -16,6 +16,7 @@ const config: GatsbyConfig = {
     'gatsby-plugin-mdx',
     'gatsby-plugin-postcss',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-twitter',
     'gatsby-plugin-vanilla-extract',
     'gatsby-transformer-sharp',
 

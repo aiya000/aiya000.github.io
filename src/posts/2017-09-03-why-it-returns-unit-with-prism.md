@@ -4,7 +4,7 @@ tags: Haskell
 ---
 　ここ
 
-- [あいや☆ぱぶりっしゅぶろぐ！ - lensの(^?)はなぜGetting (First a) s aを引数に取るのか](2017-08-16-why-prism-accessor-takes-getting-first-a-s-a.html)
+- [あいや☆ぱぶりっしゅぶろぐ！ - lensの(^?)はなぜGetting (First a) s aを引数に取るのか](https://qiita.com/aiya000/items/e359a4e89fd3ed16dde8)
 
 に書いた通り、
 `(^?)`はある`Prism`を引数に取る。

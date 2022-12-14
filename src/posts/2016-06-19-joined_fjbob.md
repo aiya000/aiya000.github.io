@@ -20,7 +20,7 @@ tags: イベント, 日記
 |:--------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
 | [石川さん](#ishikawa-san)  | プログラムを楽しもう！                                                                                                                    |
 | [げんくん](#gen-kun)       | Archでもできるよ！ OpenStack                                                                                                              |
-| [キリンさん](#kill-in-sun) | 日本人が大好きな事例で学ぶPowerShell, PowerCLI                                                                                                            |
+| [キリンさん](#kill-in-sun) | 日本人が大好きな事例で学ぶPowerShell, PowerCLI                                                                                            |
 | [なかでぃ](#nakad)         | [Laravel5とかいうヤツ](https://docs.google.com/presentation/d/1NhFf8vgkMWNyw0vgnbVQfV-_V_sy7W-b7Db6HZ8T3Vo/edit#slide=id.g14fb28b8e6_0_0) |
 
 　石川さんがロングトーク(90分)、他3名がLT枠(5~10分)です。

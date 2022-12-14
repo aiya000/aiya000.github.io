@@ -11,7 +11,7 @@ jQueryだけでなく、angular.jsなども使えます。
 
 * 前提条件
     - npmコマンドが使える
-    - tscコンパイラを扱う環境が整っている -> [Ubuntu15.04にnodejsとtypescriptを入れた](/posts/2015-08-15-Ubuntu15.04にnodejsとtypescriptを入れた.html)
+    - tscコンパイラを扱う環境が整っている -> [Ubuntu15.04にnodejsとtypescriptを入れた](/posts/2015-08-15-Ubuntu15.04にnodejsとtypescriptを入れた)
     - gitコマンドが使える
 
 
