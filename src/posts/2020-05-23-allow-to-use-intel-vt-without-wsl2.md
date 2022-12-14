@@ -15,7 +15,7 @@ tags: Windows, Linux, WSL
 1. 「Windowsの機能」アプリを開く
 1. 「仮想マシンプラットフォーム」のチェックを外す
 
-![](./2020-05-23-allow-to-use-intel-vt-without-wsl2/problem.png)
+![](/2020-05-23-allow-to-use-intel-vt-without-wsl2/problem.png)
 
 他の方法でWSL2を無効にしても、問題は解決するかもしれません。
 

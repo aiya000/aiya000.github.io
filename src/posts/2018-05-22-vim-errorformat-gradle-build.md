@@ -4,7 +4,7 @@ tags: Vim
 ---
 　[vim-quickrun](https://github.com/thinca/vim-quickrun)に依存する。
 
-![result](/images/posts/2018-05-22-vim-errorformat-gradle-build/result.png)
+![result](/2018-05-22-vim-errorformat-gradle-build/result.png)
 
 　.vimrcに以下を記述。
 

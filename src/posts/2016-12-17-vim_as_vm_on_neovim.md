@@ -11,7 +11,7 @@ tags: Vim, NeoVim
 
 - - -
 
-- [あいや☆ぱぶりっしゅぶろぐ！ - aref-web.vimの紹介 - Vimアドベントカレンダー2016 - 14日目](https://$host$/posts/2016-12-13-intro-vim-aref-web-vim_advent_calendar_2016.html)
+- [aref-web.vimの紹介 - Vimアドベントカレンダー2016 - 14日目](/posts/2016-12-13-intro-vim-aref-web-vim_advent_calendar_2016)
 
 - - -
 

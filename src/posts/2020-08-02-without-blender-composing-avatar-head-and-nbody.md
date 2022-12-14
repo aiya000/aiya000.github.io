@@ -57,14 +57,14 @@ tags: VRChat, Unity
 素体の`.fbx`を含んだフォルダごと、ProjectにD&Dします。
 （今回の場合は`QuQuonsen`です。）
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/1.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/1.png)
 
 （
 QuQuonsenの場合、
 このようなよくわからないダイアログがでてきたので、
 とりあえず**Fix now**しました。
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/2.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/2.png)
 ）
 
 ### 素体fbxのHumanoid化
@@ -76,7 +76,7 @@ Inspecorが下記のような状態になります。
 'Animation Type'を**Humanoid**に変更。
 その後**Apply**を押します。
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/3.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/3.png)
 
 ここで'Configure'クリックすると、
 Inspectorが次のような状態になります。
@@ -84,19 +84,19 @@ Inspectorが次のような状態になります。
 ここで各ボーンが正常に、
 Humanoid形式に設定されているかが確認できます。
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/4.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/4.png)
 
 いずれかのボーンが正常に設定されていない場合、
 そのボーン部分が赤く表示されます。
 （次の画像は'Hips'が'None'に設定されてしまっている場合。）
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/5.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/5.png)
 
 その場合は'Hierarchy'に表示されているアバターのボーン
 （今回の場合`onsen(Clone)`の`Armature > Hips`）
 をInspectorのHipsにD&Dしてあげてください。
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/6.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/6.png)
 
 確認したら'Apply'あるいは'Revert' & 'Done'を押して、元のInspector画面に戻りましょう。
 
@@ -111,23 +111,23 @@ Humanoid形式に設定されているかが確認できます。
 Unityに引き継ぐために行うもの、
 とのことです。
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/7.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/7.png)
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/8.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/8.png)
 
 ### 素体シェーダーの設定
 
 さてようやくですが、
 素体fbxをHierarchyに追加（D&D）しましょう。
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/9.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/9.png)
 
 次にその素体配下の、
 Armature以外のオブジェクトのシェーダーを**UTS2のToon_DoubleShadeWithFeather**等に変更します。
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/10.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/10.png)
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/12.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/12.png)
 
 - - -
 
@@ -140,7 +140,7 @@ Armature以外のオブジェクトのシェーダーを**UTS2のToon_DoubleShad
 先ほど設定した`Materials`の`Location`を**Use External Materials (Legacy)**に変更することで、
 シェーダーを変更できるようにしました。
 
-![](./2020-08-02-without-blender-composing-avatar-head-and-nbody/11.PNG)
+![](/2020-08-02-without-blender-composing-avatar-head-and-nbody/11.png)
 
 - - -
 

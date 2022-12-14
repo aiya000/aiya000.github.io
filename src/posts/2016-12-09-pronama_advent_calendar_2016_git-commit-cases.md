@@ -11,7 +11,7 @@ tags: git, AdventCalendar
 # 宣伝
 [マスコットアプリ文化祭2016](https://mascot-apps-contest.azurewebsites.net/2016/About)では
 
-![僕の作品の画像](/images/posts/2016-12-09-pronama_advent_calendar_2016_git-commit-cases/my.png)
+![僕の作品の画像](/2016-12-09-pronama_advent_calendar_2016_git-commit-cases/my.png)
 
 こういうものを登録しました :D  
 某所でこれでLTしたりもした。

@@ -11,9 +11,9 @@ tags: Haskell
 # 何？
 　👆にあると思うんですが、Tagsにリンクがつくようになりました。
 
-![before](/images/posts/2017-06-08-hakyll-taglinks/before.png)
+![before](/2017-06-08-hakyll-taglinks/before.png)
 
-![after](/images/posts/2017-06-08-hakyll-taglinks/after.png)
+![after](/2017-06-08-hakyll-taglinks/after.png)
 
 　HakyllとHakyllのドキュメントがわからないので、`Compiler`, `Item`, `Identifier`, `Context`についてctagsを駆使して、諸関数を走り回っていました。
 だってドキュメントに情報があまり書いてないんだもん。

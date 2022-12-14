@@ -3,7 +3,7 @@ title: Vimのtablineに、vim-lspのrunningなserversを表示する
 tags: Vim
 ---
 
-![example](/images/posts/2020-03-19-vim-lsp-status-on-tabline/example.png)
+![example](/2020-03-19-vim-lsp-status-on-tabline/example.png)
 
 - [僕の.vimrcでの対応コミット](https://github.com/aiya000/dotfiles/commit/335e5227b04295ad97d011b0cb985a94e6afcac1)
 

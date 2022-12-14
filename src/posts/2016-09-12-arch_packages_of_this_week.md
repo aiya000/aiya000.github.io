@@ -5,7 +5,7 @@ tags: Linux
 　今週以外のも含まれてるかも。  
 今週はxmonad, xmobar日和です。
 
-![](./2016-09-12-arch_packages_of_this_week/xmobar-preview.png)
+![](/2016-09-12-arch_packages_of_this_week/xmobar-preview.png)
 
 
 + 公式パッケージ

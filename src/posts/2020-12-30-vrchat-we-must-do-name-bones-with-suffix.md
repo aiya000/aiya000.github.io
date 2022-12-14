@@ -11,7 +11,7 @@ tags: VRChat, Unity
 見てください、私のArmature。
 まったくわからない。
 
-![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/abandon.PNG)
+![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/abandon.png)
 
 **手間……手間……！！**
 
@@ -19,13 +19,13 @@ tags: VRChat, Unity
 
 例えばこの`02`という服は、次のようなボーン構成になっています。（可愛ですよねこの服～～！！:sparkles:）
 
-![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/unnamed.PNG)
+![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/unnamed.png)
 
 このうち特有のボーン名を持たないボーン（Humanoidの命名に沿ったボーン）の名前の後ろに、`_〇〇`という文字列を追加していきます。
 
 （今回の場合、`Bone`・`skirt〇_〇`といったボーンは特有の名前なので、対象外。気になるならこれらも対象にしていいと思います！）
 
-![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/named.PNG)
+![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/named.png)
 
 - - -
 
@@ -35,7 +35,7 @@ tags: VRChat, Unity
 アバター着せ替えツールが手に合わないとき、服がアバター着せ替えツールに対応していなかったりしたときは、どうぞご利用ください:sparkles:
 
 <div class="wrap-fluid">
-[![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/AddBoneNamesSuffixes.PNG)](https://aiya000.booth.pm/items/2615466)
+[![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/AddBoneNamesSuffixes.png)](https://aiya000.booth.pm/items/2615466)
 </div>
 
 [【Unity・VRChat】AddBoneNamesSuffixes【子GameObjectの特定の名前にsuffixを追加】 - galaxy-sixth-sensey - BOOTH](https://aiya000.booth.pm/items/2615466)
@@ -44,7 +44,7 @@ tags: VRChat, Unity
 
 そうすると、アバターのArmature内にあるボーンがどの服飾のものかもわかりやすくなるので、管理しやすいですね！
 
-![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/clearly.PNG)
+![](./2020-12-30-vrchat-we-must-do-name-bones-with-suffix/clearly.png)
 
 おわり。
 

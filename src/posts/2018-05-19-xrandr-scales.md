@@ -4,10 +4,10 @@ tags: Linux
 ---
 
 Before  
-![before](/images/posts/2018-05-19-xrandr-scales/before.png)
+![before](/2018-05-19-xrandr-scales/before.png)
 
 After  
-![after](/images/posts/2018-05-19-xrandr-scales/after.png)
+![after](/2018-05-19-xrandr-scales/after.png)
 
 # 問題
 　上記 'Before' のように、

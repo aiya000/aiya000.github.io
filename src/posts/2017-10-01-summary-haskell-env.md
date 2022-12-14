@@ -82,7 +82,7 @@ let &tags = join([
 　これは、今我々が作っているプロジェクトにある各.hsファイルに記述された
 全ての関数を扱うことができる。
 
-![hasktags-image](/images/posts/2017-10-01-summary-haskell-env/hasktags-image.png)
+![hasktags-image](/2017-10-01-summary-haskell-env/hasktags-image.png)
 
 　以下のシェルコマンドでインストールできる。
 
@@ -117,7 +117,7 @@ $ haskdogs .git/tags
 プロジェクトに関係する、
 ほぼ全ての関数と型をエディタに表示できる！
 
-![haskdogs-image](/images/posts/2017-10-01-summary-haskell-env/haskdogs-image.png)
+![haskdogs-image](/2017-10-01-summary-haskell-env/haskdogs-image.png)
 
 　以下のシェルコマンドでインストールできる。
 
@@ -153,7 +153,7 @@ $ stack install haskdogs
 これのデバッグはずっとStackageを用いて行っていたこともあり、
 Stackageについては十分に実用できるレベルになっていると思う。
 
-![aref-image](/images/posts/2017-10-01-summary-haskell-env/aref-image.png)
+![aref-image](/2017-10-01-summary-haskell-env/aref-image.png)
 
 （まあ……
 誰も注目してくれていないみたいだし、

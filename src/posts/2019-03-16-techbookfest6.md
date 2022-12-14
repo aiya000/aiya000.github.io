@@ -12,11 +12,11 @@ tags: イベント
 
 # サークルページ
 
-[![サークルカット](/images/posts/2019-03-16-techbookfest6/circle_cut.png)](https://techbookfest.org/event/tbf05/circle/43260001)
+[![サークルカット](/2019-03-16-techbookfest6/circle_cut.png)](https://techbookfest.org/event/tbf05/circle/43260001)
 
 # サンプル（お試し本）
 
-- [せつラボ 〜圏論の基本〜 サンプル](/images/posts/2019-03-16-techbookfest6/sample.pdf)
+- [せつラボ 〜圏論の基本〜 サンプル](/2019-03-16-techbookfest6/sample.pdf)
 
 # 紹介
 
@@ -35,7 +35,6 @@ tags: イベント
 ## サークル配置
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;ref_src=twsrc%5Etfw">#技術書典</a> のサークル配置が「こ11」に決まりました！<br><br>数学未入門者・初心者へ向けて、<br>圏論入門への小説を頒布します🦀<br><br>イラストとキャラデザは <a href="https://twitter.com/HassakuTb?ref_src=twsrc%5Etfw">@HassakuTb</a> さんにご協力頂いています。<br>よろしくお願いします！ <a href="https://t.co/tq0JUu7leJ">pic.twitter.com/tq0JUu7leJ</a></p>&mdash; あいや@圏論入門小説・技術書典6・こ11 (@public_ai000ya) <a href="https://twitter.com/public_ai000ya/status/1098232650085543937?ref_src=twsrc%5Etfw">2019年2月20日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 関連ページ
 

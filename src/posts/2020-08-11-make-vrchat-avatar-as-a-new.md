@@ -27,17 +27,13 @@ tags: VRChat, Unity
 
 Hierarchyウィンドウのアバターを右クリックし、Inspectorの**Pipeline Manager (Script)**にある**Detach (Optional)**をクリックします。
 
-<div class="wrap-fluid">
-![](./2020-08-11-make-vrchat-avatar-as-a-new/1.PNG)
-</div>
+![](/2020-08-11-make-vrchat-avatar-as-a-new/1.png)
 
 その後、いつも通りアップロードしましょう。
 名前を`Y`に変えてからアップロードしてもいいですし、実は名前を変えなくてもよいです。
 
 大事なのはアバターのIDを**Detach**してからアップロードすると、新しいIDが割り振られてアップロードされる、というところです。
 
-<div class="wrap-fluid">
-![](./2020-08-11-make-vrchat-avatar-as-a-new/2.PNG)
-</div>
+![](/2020-08-11-make-vrchat-avatar-as-a-new/2.png)
 
 ありがとう！

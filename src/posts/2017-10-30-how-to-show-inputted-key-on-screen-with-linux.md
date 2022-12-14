@@ -9,7 +9,7 @@ tags: Linux プログラミング
 　上記2つを入れ、設定をすることによって、悪くない感じになった。
 設定はこんな感じ。
 
-![prefs](/images/posts/2017-10-30-how-to-show-inputted-key-on-screen-with-linux/prefs.png)
+![prefs](/2017-10-30-how-to-show-inputted-key-on-screen-with-linux/prefs.png)
 
 　下記はArchでの現在のインストール方法。
 

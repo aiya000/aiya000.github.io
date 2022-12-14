@@ -96,7 +96,7 @@ $ tsc hello.ts
 
 ## できた。
 ブラウザでhello.htmlを開いてみます。  
-![Result](/images/posts/2015-08-19-jQuery_in_TypeScript/1.png)
+![](/2015-08-19-jQuery_in_TypeScript/1.png)
 
 
 できた！

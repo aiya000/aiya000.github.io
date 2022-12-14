@@ -69,7 +69,7 @@ NeoVimではうまく動かなかったので、
 NeoVimは最強、離れられない。
 
 # Termiteの問題
-![on-termite](/images/posts/2018-04-11-fix-arch-neovim-env-asian-ambiguous/in-termite.png)
+![on-termite](/2018-04-11-fix-arch-neovim-env-asian-ambiguous/in-termite.png)
 
 　上の画像はTermite * NeoVimでの表示。
 
@@ -82,7 +82,7 @@ urxvt上でのcat/lessではEastふんふんは幅2で表示される。
 （ただし絵文字はうまく表示できず、ぐぬぬ）
 
 # NeoVimの問題
-![on-urxvt](/images/posts/2018-04-11-fix-arch-neovim-env-asian-ambiguous/in-urxvt.png)
+![on-urxvt](/2018-04-11-fix-arch-neovim-env-asian-ambiguous/in-urxvt.png)
 
 　しかしながら未だurxvt * NeoVim環境ではふんふんが幅2で表示されている（こんな感じ :point_up:）。
 

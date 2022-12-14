@@ -24,13 +24,13 @@ tags: イベント, 圏論, Haskell, 集合論
 
 # サークルページ
 
-[![サークルカット](/images/posts/2019-09-01-techbookfest7/circle_cut.png)](https://techbookfest.org/event/tbf07/circle/5762742296248320)
+[![サークルカット](/2019-09-01-techbookfest7/circle_cut.png)](https://techbookfest.org/event/tbf07/circle/5762742296248320)
 
 # サンプル（お試し本）
 
 <!-- NOTE: 統合のためにtechbookfest6のところを参照しているよ！ -->
 
-- [せつラボ 〜圏論の基本〜 サンプル](/images/posts/2019-03-16-techbookfest6/sample.pdf)
+- [せつラボ 〜圏論の基本〜 サンプル](/2019-03-16-techbookfest6/sample.pdf)
     - <a href="#thanks">活動順調のお礼</a>に、サンプルにも新規の「Haskellの章」をまるまる追加してあります ✋
     - 無料なので！　よろしければ読んでいってください
 

@@ -3,7 +3,7 @@ title: xfce4でWindowsのWin+\[1-9\]キーみたいな切り替えを実現す�
 tags: Linux
 ---
 
-![kore](/images/posts/2016-09-07-archlinux-dockbarx-on-xfce4/kore.png)
+![kore](/2016-09-07-archlinux-dockbarx-on-xfce4/kore.png)
 
 　Windows環境では、複数のGUIアプリを立ち上げている際に`Winキー + 1~9キー`でウィンドウを切り替えることができる。  
 便利なので僕のArchLinux + xfce4環境にも導入する。

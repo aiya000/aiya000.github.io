@@ -6,7 +6,7 @@ tags: イベント, 備考録
 頒布について報告です :dog2:
 
 # 頒布内容
-[![サークルカット](/images/posts/2018-09-12-techbookfest5/circle-cut.png)](https://techbookfest.org/event/tbf05/circle/43260001)
+[![サークルカット](/2018-09-12-techbookfest5/circle-cut.png)](https://techbookfest.org/event/tbf05/circle/43260001)
 
 - [頒布物紹介](./2018-09-12-techbookfest5.html)
 - [サークルページ](https://techbookfest.org/event/tbf05/circle/43260001)

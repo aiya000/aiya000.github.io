@@ -10,7 +10,7 @@ tags: AdventCalendar
 　Qiitaプロ生アドベントカレンダーはIT関連の記事なら何でもOKということで、珍しくGenericな記事を書いてみます。  
 ちなみに[マスコットアプリ文化祭](https://mascot-apps-contest.azurewebsites.net/2016/About)では
 
-![僕の作品の画像](/images/posts/2016-11-23-pronama_advent_calendar_2016/my.png)
+![僕の作品の画像](/2016-11-23-pronama_advent_calendar_2016/my.png)
 
 こういうものを登録しました :D
 

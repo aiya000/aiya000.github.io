@@ -7,7 +7,7 @@ tags: Windows
 
 11Mbpsから43Mbpsに速くなりました。
 
-![](./2020-05-23-improve-wifi-speed-with-windows-preference/changed-pref.png)
+![](/2020-05-23-improve-wifi-speed-with-windows-preference/changed-pref.png)
 
 自室にあるWifi中継機に2.4GHz帯で接続しているので、速くなったのだと思います。
 やったー！！

@@ -3,21 +3,21 @@ title: アバターのHierarchyにカメラを設定していたら、Build & Pu
 tags: VRChat, Unity
 ---
 
-![](./2020-12-28-vrchat-where-is-my-upload-screen-it-is-display1/camera.PNG)
+![](./2020-12-28-vrchat-where-is-my-upload-screen-it-is-display1/camera.png)
 
 こんな感じにdisplay1~4にカメラを割り当てていたら、`VRChat SDKウィンドウ > Buildタブ`の`Build & Publish`を押しても、アバターアップロード画面が出なくなりました。
 
 Gameタブには、設定したカメラが表示されてしまっています:point_down:
 
 <div class="wrap-fluid">
-![](./2020-12-28-vrchat-where-is-my-upload-screen-it-is-display1/1.PNG)
+![](./2020-12-28-vrchat-where-is-my-upload-screen-it-is-display1/1.png)
 </div>
 
 でも大丈夫。
 ちゃんとdisplay1を見ると、表示されています。
 
 <div class="wrap-fluid">
-![](./2020-12-28-vrchat-where-is-my-upload-screen-it-is-display1/2.PNG)
+![](./2020-12-28-vrchat-where-is-my-upload-screen-it-is-display1/2.png)
 </div>
 
 よかった。

@@ -36,6 +36,6 @@ tags: Linux
 - `XMonad.Layout.SubLayouts`を使ってレイアウトを`TwoPane + Tabbed | Grid + Tabbed`にした
     - 1つのworkspaceでTwoPaneとGridを切り替え可能かつ、Tabbed(firefoxのタブみたいな感じのレイアウト)と併用できる
 
-![](./2016-09-29-xmonad_is_best_the_wm/ex-tabbed-twopane.png)
+![](/2016-09-29-xmonad_is_best_the_wm/ex-tabbed-twopane.png)
 
 - `ImageMagick, dunst, notify-send, espeak`を使って、いい感じのスクリーンショットを取るやつを実装した

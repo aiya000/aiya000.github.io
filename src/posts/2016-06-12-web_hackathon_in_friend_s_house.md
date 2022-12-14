@@ -6,9 +6,9 @@ tags: 日記
 
 ## ガルパンを視聴する様子
 
-![1](./2016-06-12-web_hackathon_in_friend_s_house/1.png)  
-![2](./2016-06-12-web_hackathon_in_friend_s_house/2.png)  
-![3](./2016-06-12-web_hackathon_in_friend_s_house/3.png)
+![](/2016-06-12-web_hackathon_in_friend_s_house/1.png)  
+![](/2016-06-12-web_hackathon_in_friend_s_house/2.png)  
+![](/2016-06-12-web_hackathon_in_friend_s_house/3.png)
 
 <!--* 参加者
     - なかでぃ
@@ -21,7 +21,7 @@ tags: 日記
 
 ## くまみこを視聴する様子
 
-![](./2016-06-12-web_hackathon_in_friend_s_house/4.png)
+![](/2016-06-12-web_hackathon_in_friend_s_house/4.png)
 
 <!--
 * 参加者

@@ -9,7 +9,7 @@ tags: イベント, 備考録
 
 　僕は今回のλカ娘に『矢澤にこ先輩と一緒にモナドモナド！』っていうHaskellの記事を書きました。
 
-![cover-illust](/images/posts/2017-08-06-ikamusume-yaruzo/cover.png)
+![cover-illust](/2017-08-06-ikamusume-yaruzo/cover.png)
 
 
 　本記事は、本書を読んでみての感想かつ紹介記事になります :D

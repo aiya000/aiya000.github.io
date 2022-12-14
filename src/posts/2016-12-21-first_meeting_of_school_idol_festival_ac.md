@@ -13,7 +13,7 @@ tags: 日記
 なんとスクフェスAC待機列というのがあり、気づかずになんかズル込みしてしまうところでした！！  
 プレイする前に離れられたので許して……ごめんね、びっくりしたよね、並んでいた人々…… :cry:
 
-![看板](/images/posts/2016-12-21-first_meeting_of_school_idol_festival_ac/kanban.png)
+![看板](/2016-12-21-first_meeting_of_school_idol_festival_ac/kanban.png)
 
 　ところでNESiCAカードというものがあるらしく、スクフェスACのプレイデータを保存するには、それが必要になるらしい！  
 どこで売っているのか迷ったけど、そこのゲーセンに300円くらいで売ってた :D
@@ -27,7 +27,7 @@ tags: 日記
 をプレイしました！（難易度: Normal）  
 Normalでも十分、μ’ｓのみんなのライブ姿は見れない難易度なので、大丈夫でした :joy_cat:
 
-![取得した称号](/images/posts/2016-12-21-first_meeting_of_school_idol_festival_ac/degrees.png)
+![取得した称号](/2016-12-21-first_meeting_of_school_idol_festival_ac/degrees.png)
 
 
 # 筐体の種類
@@ -59,7 +59,7 @@ Normalでも十分、μ’ｓのみんなのライブ姿は見れない難易度
 （ただしメンバーガチャは最大9回引けるので、枚数的には9枚まで貰える）、
 計3回センター筐体待機列に並び直しました :)
 
-![ゲットしたみんな](/images/posts/2016-12-21-first_meeting_of_school_idol_festival_ac/cards.png)
+![ゲットしたみんな](/2016-12-21-first_meeting_of_school_idol_festival_ac/cards.png)
 
 　我ながら、運が良いんじゃない？ 超嬉しい！ :joy:  
 ちなみに、HR真姫ちゃんは前回のメイン筐体プレイ後に何か「次回のメンバーガチャでHRカードの位置がわかる」というもの？
@@ -69,7 +69,7 @@ HR穂乃果ちゃんは、初プレイで穂乃果ちゃんを選んだ（？？
 
 Rことりちゃんは素 :joy:
 
-![カード交換ボード](/images/posts/2016-12-21-first_meeting_of_school_idol_festival_ac/exchanger_board.png)
+![カード交換ボード](/2016-12-21-first_meeting_of_school_idol_festival_ac/exchanger_board.png)
 
 # 2プレイ目
 　もう一度メイン筐体待機列に並んで、**ススメ→トゥモロウ**と**Music S.T.A.R.T!!**をプレイ！  

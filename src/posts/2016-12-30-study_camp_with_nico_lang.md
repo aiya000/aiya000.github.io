@@ -8,7 +8,7 @@ tags: Haskell, 日記
 - [にこ言語について](#about-nico-lang)
 - [aiya000/nico-lang - GitHub](https://github.com/aiya000/nico-lang)
 
-![合宿所の近くの海](/images/posts/2016-12-30-study_camp_with_nico_lang/sea.png)
+![合宿所の近くの海](/2016-12-30-study_camp_with_nico_lang/sea.png)
 
 
 # 謎の集団で合宿に行ってきた
@@ -92,7 +92,7 @@ tags: Haskell, 日記
 
 いいね！
 
-![椰子の木みたいなの](/images/posts/2016-12-30-study_camp_with_nico_lang/wood.png)
+![椰子の木みたいなの](/2016-12-30-study_camp_with_nico_lang/wood.png)
 
 
 ## 合宿中進捗について
@@ -117,7 +117,7 @@ tags: Haskell, 日記
 
 ※ ２泊３日中の１日目はDeepLeaningで潰した
 
-![夜の海](/images/posts/2016-12-30-study_camp_with_nico_lang/at_night.png)
+![夜の海](/2016-12-30-study_camp_with_nico_lang/at_night.png)
 
 
 # 結論
