@@ -61,6 +61,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.10",
     "gatsby-plugin-twitter": "^5.3.1",
+    "gatsby-remark-emoji": "^0.0.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
     "prismjs": "^1.29.0",
