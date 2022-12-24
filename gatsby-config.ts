@@ -41,12 +41,7 @@ const config: GatsbyConfig = {
       options: {
         plugins: [
           'gatsby-remark-emoji',
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 1000,
-            },
-          },
+          'gatsby-remark-images',
           {
             resolve: 'gatsby-remark-prismjs',
             options: {
