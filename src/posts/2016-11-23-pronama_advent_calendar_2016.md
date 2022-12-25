@@ -1,6 +1,6 @@
 ---
 title: PullRequestをしよう！ - プロ生アドベントカレンダー2016 - 1日目
-tags: AdventCalendar
+tags: ['AdventCalendar']
 ---
 この記事は[Qiitaプロ生アドベントカレンダー2016](http://qiita.com/advent-calendar/2016/pronama-chan)、一日目の記事です！ :)
 

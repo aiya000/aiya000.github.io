@@ -1,6 +1,6 @@
 ---
-title: メモ：Rasberry PI 3 model B+をBluetoothスピーカーにした
-tags: Linux
+title: 'メモ: Rasberry PI 3 model B+をBluetoothスピーカーにした'
+tags: ['Linux']
 ---
 　僕はbluetoothスピーカーが欲しかった。
 でも僕の部屋には、コンセントから電源が供給されるイヤホンジャック接続のスピーカー（アナログスピーカー？）

@@ -1,6 +1,6 @@
 ---
 title: extensible-effectsの作用を拡大方向に変換する
-tags: Haskell
+tags: ['Haskell']
 ---
 # 作用とは
 　この記事では`Eff`型の第一型引数を指します。

@@ -1,6 +1,6 @@
 ---
 title: Arch LinuxでEast Asian Ambiguous charが幅1で表示されることについて
-tags: Linux, NeoVim
+tags: ['Linux', 'NeoVim']
 ---
 　相当前から…僕のArch Linux上のTermite上のNeoVimで 「…」 という文字が幅1で表示されてしまう 問題に悩ませれている。
 結局解決できなかったが……今後別の環境でまた同じシチュエーションになったときのために……まとめておく。

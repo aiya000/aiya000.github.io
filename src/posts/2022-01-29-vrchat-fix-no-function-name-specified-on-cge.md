@@ -1,6 +1,6 @@
 ---
 title: ComboGestureExpressions_V1.5.2のEE Property Explorerで表情が生成されない
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 
 # EE Property Explorer

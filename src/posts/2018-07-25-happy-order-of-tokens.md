@@ -1,6 +1,6 @@
 ---
 title: Happyの%tokenではより一般的な形式を下にしなきゃだめ
-tags: Haskell
+tags: ['Haskell']
 ---
 # 正誤
 正しい

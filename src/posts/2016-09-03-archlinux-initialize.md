@@ -1,6 +1,6 @@
 ---
 title: 僕がArchLinuxインストール直後にインストールしたパッケージ全集
-tags: Linux
+tags: ['Linux']
 ---
 
 # 公式リポジトリより

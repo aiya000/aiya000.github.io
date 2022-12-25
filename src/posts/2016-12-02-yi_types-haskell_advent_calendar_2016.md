@@ -1,6 +1,6 @@
 ---
 title: Yiが定義する型の紹介 - Haskell Advent Calendar 2016 - 4日目
-tags: AdventCalendar, Haskell
+tags: ['AdventCalendar', 'Haskell']
 ---
 　ドーモ、fix関数の簡約が「いい感じにやる」といった理解しかできないあいやです。  
 この記事は[Haskell Advent Calendar 2016](http://qiita.com/advent-calendar/2016/haskell) 4日目の記事です。

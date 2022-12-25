@@ -1,6 +1,6 @@
 ---
 title: Google Drive REST API Javaで検索条件を指定する
-tags: Java, Kotlin
+tags: ['Java', 'Kotlin']
 ---
 
 [Java Quickstart - Drive REST API - Google Developers](https://developers.google.com/drive/api/v3/quickstart/java)と

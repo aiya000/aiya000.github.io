@@ -1,6 +1,6 @@
 ---
 title: VRChatのアバターを新しいアバターとしてアップロードする
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 ## 問題
 

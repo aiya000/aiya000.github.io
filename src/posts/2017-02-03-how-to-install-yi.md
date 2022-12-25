@@ -1,6 +1,6 @@
 ---
 title: yiテキストエディタのインストール方法
-tags: Haskell
+tags: ['Haskell']
 ---
 　`haskell-stack`はインストールされているものとする :dog2:
 

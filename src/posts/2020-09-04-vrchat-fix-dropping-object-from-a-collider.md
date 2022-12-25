@@ -1,6 +1,6 @@
 ---
 title: 【VRChat・メモ】ちゃんとコライダーを設定してるのにオブジェクトが床の下に落ちてしまうときの修正方法
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 
 あるGameObject`X`が、PlaneなGameObject`Plane`のちょうど上に、positionを設定しました。

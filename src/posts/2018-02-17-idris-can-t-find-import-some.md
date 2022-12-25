@@ -1,6 +1,6 @@
 ---
 title: IdrisでEffectモジュールなどを使おうとしたときに出るCan't find import Effect/Barの対処
-tags: Idris
+tags: ['Idris']
 ---
 # 問題
 

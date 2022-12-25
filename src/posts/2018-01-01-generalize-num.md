@@ -1,6 +1,6 @@
 ---
 title: 数値をnewtypeした型の値として数値リテラルを使う
-tags: Haskell
+tags: ['Haskell']
 ---
 　`Num`型クラスに対して`GeneralizedNewtypeDeriving`拡張を使うことができるので、
 例えば`Int`のnewtypeを作りたいけど、いちいち値コンストラクタを経るのが面倒だ

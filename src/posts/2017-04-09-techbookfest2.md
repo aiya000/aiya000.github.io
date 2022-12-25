@@ -1,6 +1,6 @@
 ---
 title: 技術書展2に行ってきた！ めっちゃ楽しかった！
-tags: イベント
+tags: ['イベント']
 ---
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">あいやさん来てくれた！顔に見覚えがあるけど記憶力に自信がないので声をかけにくかったんだけど、彼の声を聞いたらああやっぱりって！<a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash">#技術書典</a></p>&mdash; MURAOKA Taro (@kaoriya) <a href="https://twitter.com/kaoriya/status/850902973685219328">2017年4月9日</a></blockquote>
 

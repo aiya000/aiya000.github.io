@@ -1,6 +1,6 @@
 ---
 title: Vimをvalgrind付きでビルドして、メモリリークを検出する
-tags: Vim, C
+tags: ['Vim', 'C']
 ---
 
 ```shell-session

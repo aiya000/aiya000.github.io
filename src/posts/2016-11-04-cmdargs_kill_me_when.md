@@ -1,6 +1,6 @@
 ---
 title: cmdargsはargsと同時にhelpを設定するとシぬ
-tags: Haskell
+tags: ['Haskell']
 ---
 
 ```haskell

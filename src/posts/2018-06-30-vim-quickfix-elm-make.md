@@ -1,6 +1,6 @@
 ---
 title: VimのQuickFixでelm-makeの結果を表示する設定を書いた
-tags: Vim, NeoVim
+tags: ['Vim', 'NeoVim']
 ---
 　ソースはこちらに上げました :point_down:
 

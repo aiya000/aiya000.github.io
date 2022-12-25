@@ -1,6 +1,6 @@
 ---
 title: Google Cloud Functionsでnode.jsを使う場合、devDependenciesを使うとデプロイが失敗する
-tags: node.js, GCP
+tags: ['Node.js', 'GCP']
 ---
 # 結
 

@@ -1,6 +1,6 @@
 ---
 title: WSL2が仮想化支援機能（Intel-VT）を専有していたため、VMWare Playerで64bit OSがインストールできなかった
-tags: Windows, Linux, WSL
+tags: ['Windows', 'Linux', 'WSL']
 ---
 先日、VR使用を鑑みた新しいデスクトップPCを購入しました :sparkles:
 そのためWindows上、最強のLinux環境を探していたのですが、思わぬところで詰まったので、メモしておきます。

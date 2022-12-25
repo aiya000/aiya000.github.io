@@ -1,6 +1,6 @@
 ---
 title: 今週Archに入れたパッケージ
-tags: Linux
+tags: ['Linux']
 ---
 Official, AUR混合です。
 

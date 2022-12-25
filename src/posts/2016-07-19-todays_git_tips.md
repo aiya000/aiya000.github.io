@@ -1,6 +1,6 @@
 ---
 title: 今日のgit-tips (簡単で便利なrebaseによるcommit編集)
-tags: プログラミング
+tags: ['git']
 ---
 # 今日のgit-tips (簡単で便利なrebaseによるcommit編集)
 　今日は未pushのいくつかのcommitの内容を`git rebase`で編集する方法を紹介します。  

@@ -1,6 +1,6 @@
 ---
 title: sbt-doctestはテストプロジェクトのdoctestを見ない
-tags: Scala
+tags: ['Scala']
 ---
 　doctestは最高ですから（Scalaだけに）Scalaにも存在します。
 

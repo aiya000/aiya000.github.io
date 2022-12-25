@@ -1,6 +1,6 @@
 ---
 title: アバターのHierarchyにカメラを設定していたら、Build & Publishを押してもアバターアップロード画面が出なくなった
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 
 ![](/2020-12-28-vrchat-where-is-my-upload-screen-it-is-display1/camera.png)

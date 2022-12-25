@@ -1,6 +1,6 @@
 ---
 title: systemd-networkdを使うときはdhcpcdを切る
-tags: Linux
+tags: ['Linux']
 ---
 
-じゃないと `wifi-menu` でAPに、うまく繋がらなない ٩(๑`^´๑)۶
+でないと `wifi-menu` でAPに、うまく繋がらなない。

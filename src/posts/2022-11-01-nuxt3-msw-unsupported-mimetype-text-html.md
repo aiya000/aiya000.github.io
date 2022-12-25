@@ -1,6 +1,6 @@
 ---
 title: Nuxt3とMSWで「The script has an unsupported MIME type ('text/html')」が出た
-tags: TypeScript, Nuxt, Nuxt3
+tags: ['TypeScript', 'Nuxt.js', 'Nuxt3']
 ---
 # 結
 ## 間違い

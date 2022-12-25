@@ -1,6 +1,6 @@
 ---
-title: 【Vimにコントリビュート】garray_Tの使い方
-tags: Vim, C
+title: 【Vimにコントリビュートする人向け】garray_Tの使い方
+tags: ['Vim', 'C']
 ---
 
 # はじめに

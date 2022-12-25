@@ -1,6 +1,6 @@
 ---
 title: Haskellのmplusってもしかしてすごい便利じゃない？
-tags: Haskell
+tags: ['Haskell']
 ---
 束縛(<-)とcaseでインデントが多くネストしてしまいそうな式でも、少ないインデントで済ませられる。
 

@@ -1,6 +1,6 @@
 ---
 title: シェル環境をbash-viからzsh-viinsに移行している
-tags: 環境
+tags: ['環境']
 ---
 # シェル環境をbash-viからzsh-viinsに移行している
 ## 今までのシェル環境

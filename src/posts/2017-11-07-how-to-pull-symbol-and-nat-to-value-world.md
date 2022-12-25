@@ -1,6 +1,6 @@
 ---
 title: Haskell（GHC）のSymbol/Natカインドの型を値に落とす方法
-tags: Haskell
+tags: ['Haskell']
 ---
 　Haskell（GHC）では以下のように、文字列を型として埋め込むことができます。
 

@@ -1,6 +1,6 @@
 ---
 title: lens（のMonadState演算子など）で自己に言及したい時はidを使う
-tags: Haskell
+tags: ['Haskell']
 ---
 # まとめ
 　lensにて。

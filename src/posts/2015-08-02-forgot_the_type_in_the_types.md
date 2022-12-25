@@ -1,6 +1,6 @@
 ---
 title: C#の拡張メソッドやScalaのimplicit convertionで広域な型を指定してはいけない
-tags: プログラミング
+tags: ['C#']
 ---
 # 静的型付けの中で型を忘れた話
 

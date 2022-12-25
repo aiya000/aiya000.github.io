@@ -1,6 +1,6 @@
 ---
-title: 【結論】Textの中のStringにmap：String→StringするにはProfunctorが一番！
-tags: Haskell
+title: '【結論】Textの中のStringにmap :: String -> StringするにはProfunctorが一番！'
+tags: ['Haskell']
 ---
 # 起
 　ときどきTextにpack,unpackを介してString -> Stringしたくなるシチュエーションに出会う。

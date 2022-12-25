@@ -1,6 +1,6 @@
 ---
 title: Haskellのstack-build（test）の結果をGUI通知するsnowtify作ったよ
-tags: Haskell
+tags: ['Haskell']
 ---
 　[Haskell-jpのslack](https://haskell.jp/blog/posts/2017/01-first.html)の#questionで
 「stack testの結果をGUIの通知デーモンに自動で表示する方法ってないですか？」と聞いたら

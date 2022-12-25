@@ -1,6 +1,6 @@
 ---
 title: HaskellにはifMという関数がある
-tags: Haskell
+tags: ['Haskell']
 ---
 最近Haskellコードのcaseを多用するようになってたので、インデントレベルが3以上になってしまいそうで悩んでた X(
 

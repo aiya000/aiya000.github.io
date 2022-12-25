@@ -1,6 +1,6 @@
 ---
 title: Spring Tool Suite 4でorg.eclipse.buildship.core.prefsのせいでJAVA_HOMEが設定できなかった
-tags: Java
+tags: ['Java']
 ---
 
 ![](/2020-09-10-we-must-kill-org.eclipse.buildship.core.prefs/to-build.png)

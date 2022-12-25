@@ -1,6 +1,6 @@
 ---
 title: WindowsでWifiデバイスの設定をいじったら速くなった
-tags: Windows
+tags: ['Windows']
 ---
 
 今回は、ほぼ個人的メモになります。

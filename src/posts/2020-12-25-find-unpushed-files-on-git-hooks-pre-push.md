@@ -1,6 +1,6 @@
 ---
 title: gitでまだpushしていないファイルを検出する
-tags: git
+tags: ['git']
 ---
 
 重要なやつ :point_down:

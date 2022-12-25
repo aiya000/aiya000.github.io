@@ -1,6 +1,6 @@
 ---
 title: Hakyllの各記事ページのタグにリンクを付けた
-tags: Haskell
+tags: ['Haskell']
 ---
 # 成果物
 - [2b5ac07b3c870c3904354f68e48cd3559f0d530c](https://github.com/aiya000/aiya000.github.io/commit/2b5ac07b3c870c3904354f68e48cd3559f0d530c)

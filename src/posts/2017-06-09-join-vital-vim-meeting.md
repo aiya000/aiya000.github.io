@@ -1,6 +1,6 @@
 ---
 title: vital.vim開発者会言ぎに行ってきた
-tags: イベント, Vim
+tags: ['イベント', 'Vim']
 ---
 　どーも、vital.vim開発者会議に行ってきました。
 

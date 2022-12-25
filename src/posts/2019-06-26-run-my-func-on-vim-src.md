@@ -1,6 +1,6 @@
 ---
 title: Vimのソース内で自作した関数の結果を確認する
-tags: Vim, C
+tags: ['Vim', 'C']
 ---
 
 ## 起

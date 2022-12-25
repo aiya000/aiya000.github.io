@@ -1,6 +1,6 @@
 ---
 title: 日本語環境のLANGでstack haddockができないやつの解決
-tags: Haskell
+tags: ['Haskell']
 ---
 　haskell-stackを使って`stack haddock`を実行すると、`Foo.hs: invalid byte sequence`みたいなエラーが出ることがある。
 

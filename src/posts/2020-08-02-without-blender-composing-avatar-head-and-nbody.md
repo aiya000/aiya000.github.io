@@ -1,6 +1,6 @@
 ---
 title: WIP【Blender未使用】UnityでVRChatアバターの素体（胴体）を入れ替える方法
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 
 ## 初めに

@@ -1,6 +1,6 @@
 ---
 title: 使いたいVimプラグインがNeoVimで対応してない？ NeoVimは環境、VimはVMだよ？
-tags: Vim, NeoVim
+tags: ['Vim', 'NeoVim']
 ---
 　ドーモ、最近NeoVimを使い始めたyiコントリビューターのVimmerのあいやです。  
 この記事はVim Advent Calendar 2016 - 17日目の記事**ではありません**！  

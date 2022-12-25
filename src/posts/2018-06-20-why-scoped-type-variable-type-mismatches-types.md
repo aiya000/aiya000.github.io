@@ -1,6 +1,6 @@
 ---
 title: ScopedTypeVariables下の1ランク多相で型が合わないとき
-tags: Haskell
+tags: ['Haskell']
 ---
 # まとめ
 　forallを指定してあげると、一連の`a`, `b`が固定されてくれます。

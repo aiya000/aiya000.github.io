@@ -1,17 +1,14 @@
 ---
 title: Haskellを教えて、対価としてモンハンを買って貰ってきた
-tags: 日記
+tags: ['日記']
 ---
 # 発端
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">switchのモンハン欲しい……switchのモンハン欲しいよお……</p>&mdash; ノエノエの犬（あいや） (@public_ai000ya) <a href="https://twitter.com/public_ai000ya/status/909406212852031489">2017年9月17日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">僕が1日、Haskellを本気で親身に教えるので、貴方はswitchのモンハンを僕に買ってください！</p>&mdash; ノエノエの犬（あいや） (@public_ai000ya) <a href="https://twitter.com/public_ai000ya/status/909406478057873408">2017年9月17日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">いいよ。</p>&mdash; きつねのみたま@頑張らない (@nf_shirosawa) <a href="https://twitter.com/nf_shirosawa/status/909408955662606337">2017年9月17日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ンゴ！？！？
 

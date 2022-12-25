@@ -1,6 +1,6 @@
 ---
 title: Linuxで画面上に入力したキーを表示する（Like-macOS-keycastr）
-tags: Linux プログラミング
+tags: ['Linux']
 ---
 
 - [GitHub - wavexx/screenkey: A screencast tool to display your keys inspired by Screenflick](https://github.com/wavexx/screenkey)

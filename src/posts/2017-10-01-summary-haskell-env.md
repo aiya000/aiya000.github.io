@@ -1,6 +1,6 @@
 ---
 title: 僕ののHaskell開発環境を紹介する
-tags: Haskell
+tags: ['Haskell']
 ---
 # 趣旨
 　僕は僕のHaskell開発環境を使っているのだけど（それはそう）、常々これはなかなか便利だと思っている。

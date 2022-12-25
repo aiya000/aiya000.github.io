@@ -1,6 +1,6 @@
 ---
 title: にこ、希と一緒に学ぶHaskell（番外）「extensible-effectsの基本作用」 +絵里
-tags: ラブライブ！で学ぶ, にこ、希と一緒に学ぶHaskell, Haskell
+tags: ['ラブライブ！で学ぶ', 'にこ、希と一緒に学ぶHaskell', 'Haskell']
 ---
 
 せーのっ

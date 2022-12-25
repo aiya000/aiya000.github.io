@@ -1,6 +1,6 @@
 ---
 title: UdonSharpでメソッドをthis.SendCustomNetworkEvent()で呼び出すときは、メソッドをprivateにしない
-tags: VRChat, Udon#
+tags: ['VRChat', 'Udon#']
 ---
 
 :x: 「`howdy :)`」が表示されない
@@ -30,4 +30,4 @@ public void Foo() {
 
 当たり前だけど！！！
 
-すごいなやんだぞ～～！！！！(つ﹏<)･ﾟ｡
+すごいいやだった！！

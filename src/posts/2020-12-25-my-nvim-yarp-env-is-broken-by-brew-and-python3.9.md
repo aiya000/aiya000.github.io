@@ -1,6 +1,6 @@
 ---
 title: brewで環境を更新したらVimでinsertモードに入ったときに固まるようになったので修正した
-tags: Vim
+tags: ['Vim']
 ---
 
 雑記。

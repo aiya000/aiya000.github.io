@@ -1,6 +1,6 @@
 ---
 title: Firebase AuthenticationユーザーのdisplayNameは、Firestore rules上ではnameとして定義される
-tags: Firebase, TypeScript, JavaScript
+tags: ['Firebase', 'TypeScript', 'JavaScript']
 ---
 
 Firebase Authenticationユーザーを、次のように登録したとします。

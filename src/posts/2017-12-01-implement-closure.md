@@ -1,6 +1,6 @@
 ---
 title: 不変性を仮定した、環境をキャプチャしないクロージャ生成アルゴリズムとその問題
-tags: プログラミング, Lisp, AdventCalendar2017, AdventCalendar
+tags: ['Lisp', 'AdventCalendar']
 ---
 　この記事は[言語実装 Advent Calendar 2017](https://qiita.com/advent-calendar/2017/lang_dev)の、
 12月1日の記事です。

@@ -1,6 +1,6 @@
 ---
 title: MaybeTを使ってリファクタリングしたずら
-tags: Haskell
+tags: ['Haskell']
 ---
 　オラ、今日はLisp処理系の作成を進めてたずら。
 

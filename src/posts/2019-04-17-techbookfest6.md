@@ -1,8 +1,7 @@
 ---
 title: 技術書典6で数学入門書（圏論）を頒布してきました！
-tags: イベント, 備考録
+tags: ['イベント', '備考録']
 ---
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Table of Contents
 
@@ -157,6 +156,5 @@ tags: イベント, 備考録
 　最後に宣伝を。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">電子販売を開始しました🐡<br><br>数学未入門者に、数学にふれてもらうための本です。<br>圏論という分野を、題材にしています。<br><br>前提知識をほぼ仮定していないのこと、小説風に読みやすくしていることが特徴です！<a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;ref_src=twsrc%5Etfw">#技術書典</a><br><br>サンプル👇️<a href="https://t.co/nloGh4fc1K">https://t.co/nloGh4fc1K</a><br><br>販売👇️<a href="https://t.co/cB6SCp2ODr">https://t.co/cB6SCp2ODr</a></p>&mdash; あいや@技術書典6・こ11 (@public_ai000ya) <a href="https://twitter.com/public_ai000ya/status/1117429575560990720?ref_src=twsrc%5Etfw">2019年4月14日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 　みなさま、本当にありがとうございました！

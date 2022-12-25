@@ -1,6 +1,6 @@
 ---
 title: haskell-stackでcan't load .so/.DLL for 〜/libncurses.soが出た場合の対処
-tags: Haskell
+tags: ['Haskell']
 ---
 # 対処
 　ワークアラウンドを施します。

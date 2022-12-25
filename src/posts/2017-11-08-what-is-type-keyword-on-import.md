@@ -1,6 +1,6 @@
 ---
 title: Haskell（GHC）のimport/module構文に表れるのtypeキーワードについて（ExplicitNamespaces）
-tags: Haskell
+tags: ['Haskell']
 ---
 　例によるGHC Haskellの中の概念の紹介記事。
 

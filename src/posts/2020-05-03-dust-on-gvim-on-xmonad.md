@@ -1,6 +1,6 @@
 ---
 title: XMonad上のGVimで画面にゴミが出る場合は'renderoptions'
-tags: Vim
+tags: ['Vim', 'Linux']
 ---
 
 ## 解決策

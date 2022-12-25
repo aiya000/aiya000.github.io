@@ -1,6 +1,6 @@
 ---
 title: Xorg環境でディスプレイの解像度ではなく表示倍率を変える--scale
-tags: Linux
+tags: ['Linux']
 ---
 
 Before  

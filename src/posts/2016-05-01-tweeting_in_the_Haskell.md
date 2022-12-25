@@ -1,6 +1,6 @@
 ---
 title: HaskellでTwitterにTweetする
-tags: プログラミング, Haskell
+tags: ['Haskell']
 ---
 # HaskellでTwitterにTweetする
 

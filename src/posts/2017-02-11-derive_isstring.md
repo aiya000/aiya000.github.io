@@ -1,6 +1,6 @@
 ---
 title: Text(ByteString)をnewtypeした型でもOverloadedStringsできるよ。
-tags: Haskell
+tags: ['Haskell']
 ---
 `GeneralizedNewtypeDeriving`拡張を使う。
 

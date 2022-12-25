@@ -1,6 +1,6 @@
 ---
 title: IdrisとHaskellの差異「依存型のパターンマッチが可能」
-tags: Idris, Haskell
+tags: ['Idris', 'Haskell']
 ---
 　Idrisに入門中なので、せっかくだからHaskellではできなかったけどIdrisではできること、
 またその逆を定期的に挙げていきたいと思います :dog2:

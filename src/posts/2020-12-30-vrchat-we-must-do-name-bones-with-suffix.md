@@ -1,6 +1,6 @@
 ---
 title: アバター改変で服などを着せるするなら、絶対にボーン名を変更しておいた方がいい
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 # 概要
 

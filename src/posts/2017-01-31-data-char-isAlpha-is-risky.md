@@ -1,6 +1,6 @@
 ---
 title: Data.CharのisAlphaはマルチバイト文字を正しく扱えない
-tags: Haskell
+tags: ['Haskell']
 ---
 　isAlphaNumも同様。  
 まじ注意。

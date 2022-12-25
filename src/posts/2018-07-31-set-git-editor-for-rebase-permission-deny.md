@@ -1,6 +1,6 @@
 ---
 title: gitの「Could not execute editor」が出たときは$GIT_EDITORを設定する
-tags: git
+tags: ['git']
 ---
 # 結
 ```shell-session

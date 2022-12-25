@@ -1,6 +1,6 @@
 ---
 title: Vim scriptに静的型付けを導入するTime script
-tags: Vim
+tags: ['Vim']
 ---
 
 ハロー 🤟🙄🤟

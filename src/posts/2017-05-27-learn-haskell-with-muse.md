@@ -1,6 +1,6 @@
 ---
 title: ことり、穂乃果と一緒に学ぶHaskell（入門）その4「型クラスの定義と実装」
-tags: ラブライブ！で学ぶ, ことり、穂乃果と一緒に学ぶHaskell, Haskell
+tags: ['ラブライブ！で学ぶ', 'ことり、穂乃果と一緒に学ぶHaskell', 'Haskell']
 ---
 
 - [前回 - ことり、穂乃果と一緒に学ぶHaskell（入門）その3「代数的データ型の定義2」](./2017-05-12-learn-haskell-with-muse.html)

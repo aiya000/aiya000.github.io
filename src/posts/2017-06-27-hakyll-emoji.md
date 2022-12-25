@@ -1,6 +1,6 @@
 ---
-title: HakyllのCompilerでemoji（：dogs：）をコンパイルする
-tags: Haskell
+title: 'HakyllのCompilerでemoji（:dogs:）をコンパイルする'
+tags: ['Haskell']
 ---
 :diamond_shape_with_a_dot_inside: :dog2: :diamond_shape_with_a_dot_inside:
 （`:diamond_shape_with_a_dot_inside:` `:dog2:` `:diamond_shape_with_a_dot_inside:`）

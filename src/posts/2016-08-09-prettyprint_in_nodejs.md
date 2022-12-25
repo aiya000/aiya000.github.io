@@ -1,6 +1,6 @@
 ---
 title: Node.jsでprettyprintする
-tags: プログラミング, JavaScript, Node.js
+tags: ['JavaScript', 'Node.js']
 ---
 # Node.jsでprettyprintする
 　これ使う。  

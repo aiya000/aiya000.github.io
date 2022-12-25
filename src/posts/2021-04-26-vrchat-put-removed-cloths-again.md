@@ -1,6 +1,6 @@
 ---
 title: アバターの削除してしまった服や服飾を、もう一度アバターに追加する
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 
 ## 概要

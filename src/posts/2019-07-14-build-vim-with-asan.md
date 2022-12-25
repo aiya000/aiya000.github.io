@@ -1,6 +1,6 @@
 ---
 title: VimをSanitizer付きでビルドして、メモリリークを検出する
-tags: Vim, C
+tags: ['Vim', 'C']
 ---
 
 　vim-jpでichizokさんに指南をいただきました。

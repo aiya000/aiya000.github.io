@@ -1,6 +1,6 @@
 ---
 title: NativeScriptの型不安全なObservableを型安全にする
-tags: TypeScript
+tags: ['TypeScript']
 ---
 ## 結
 

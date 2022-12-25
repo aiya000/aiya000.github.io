@@ -1,6 +1,6 @@
 ---
 title: 正誤表 - せつラボ 〜圏論の基本〜
-tags: 頒布物
+tags: ['頒布物']
 ---
 # Special Thanks
 

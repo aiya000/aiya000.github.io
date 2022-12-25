@@ -1,6 +1,6 @@
 ---
 title: AWS API Gatewayのリソースを作成したらステージへのデプロイが必要
-tags: AWS
+tags: ['AWS']
 ---
 　AWSのAPI Gatewayで、受け取ったjsonパラメータをそのまま返すechoサーバをリリースに定義したのだけど、
 それに対するAPI Gateway上での`テスト`行うのはうまくいくのに、

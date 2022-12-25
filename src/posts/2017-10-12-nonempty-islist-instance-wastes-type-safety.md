@@ -1,6 +1,6 @@
 ---
 title: NonEmptyのIsListインスタンスの損なわせる型健全性
-tags: Haskell
+tags: ['Haskell']
 ---
 # 結論
 　`OverloadedLists`で`NonEmpty`を具体化しない方が良い。

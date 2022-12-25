@@ -1,6 +1,6 @@
 ---
 title: Udon#でUdonSyncedを使わない方法
-tags: VRChat, Udon#
+tags: ['VRChat', 'Udon#']
 ---
 # 目標
 

@@ -1,6 +1,6 @@
 ---
 title: ことり、穂乃果と一緒に学ぶHaskell（入門）その6「高階データ型」
-tags: ラブライブ！で学ぶ, ことり、穂乃果と一緒に学ぶHaskell, Haskell, AdventCalendar2017, AdventCalendar
+tags: ['ラブライブ！で学ぶ', 'ことり、穂乃果と一緒に学ぶHaskell', 'Haskell', 'AdventCalendar']
 ---
 　この記事は[Haskell (その2) Advent Calendar 2017](https://qiita.com/advent-calendar/2017/haskell2)の
 クリスマス・イブの日の記事です！

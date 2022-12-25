@@ -1,6 +1,6 @@
 ---
 title: tasty-discoverを使ってみた
-tags: Haskell
+tags: ['Haskell']
 ---
 # 参考ページ
 

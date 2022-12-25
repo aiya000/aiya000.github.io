@@ -1,6 +1,6 @@
 ---
 title: Vim_scriptで定数
-tags: Vim, プログラミング
+tags: ['Vim']
 ---
 # Vim scriptで定数
 

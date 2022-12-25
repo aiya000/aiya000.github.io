@@ -1,6 +1,6 @@
 ---
 title: bindkey -vしてた人向けのauto-fu.zsh導入方法
-tags: shell
+tags: ['Shell']
 ---
 　[このPR](https://github.com/hchbaw/auto-fu.zsh/pull/45)で色々教えてもらったので書いときます。
 

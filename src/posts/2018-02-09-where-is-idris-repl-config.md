@@ -1,6 +1,6 @@
 ---
 title: IdrisのREPLの設定ファイルは~/.idris/repl/init
-tags: Idris
+tags: ['Idris']
 ---
 
 - [The Idris REPL &mdash; Idris 1.2.0 documentation](http://docs.idris-lang.org/en/latest/reference/repl.html)

@@ -1,6 +1,6 @@
 ---
 title: xfce4でWindowsのWin+\[1-9\]キーみたいな切り替えを実現する
-tags: Linux
+tags: ['Linux']
 ---
 
 ![kore](/2016-09-07-archlinux-dockbarx-on-xfce4/kore.png)

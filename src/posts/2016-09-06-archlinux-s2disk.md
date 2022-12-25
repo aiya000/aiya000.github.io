@@ -1,6 +1,6 @@
 ---
 title: いい加減ArchLinuxでのhibernate環境の構築についてメモっとく
-tags: Linux
+tags: ['Linux']
 ---
 　以前kernelバックエンドを使わないsuspend on disk(hibernate, s2disk)の環境を作った時も
 (面白いけど)苦労したのにメモってなかったのでまた(面白いけど)苦労した。  

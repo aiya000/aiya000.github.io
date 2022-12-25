@@ -1,6 +1,6 @@
 ---
 title: typeでは型引数を省略しないと高階型クラスインスタンスにできない
-tags: Haskell
+tags: ['Haskell']
 ---
 
 ```haskell

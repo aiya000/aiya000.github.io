@@ -1,6 +1,6 @@
 ---
-title: List&ltEither&ltE, A&gt&gtからEither&ltList&ltE&gt, List&ltA&gt&gtを取らない
-tags: Haskell, Kotlin
+title: List<Either<E, A>>からEither<List<E>, List<A>>を取らない
+tags: ['Haskell', 'Kotlin']
 ---
 
 `List<Either<E, A>>`から「全てのleft値 or 全てのright値」を取るときは、左に`NonEmptyList<E>`をかけること。

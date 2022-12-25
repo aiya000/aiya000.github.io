@@ -1,6 +1,6 @@
 ---
 title: 【VRChat API】favorite済みワールド全てをunfavoriteする
-tags: VRChat
+tags: ['VRChat']
 ---
 ## 対象読者
 

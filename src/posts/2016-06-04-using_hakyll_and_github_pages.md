@@ -1,6 +1,6 @@
 ---
 title: ブログをFC2ブログからHakyll + github-pagesを使うようにした
-tags: Haskell, Shell, 環境, 日記
+tags: ['Haskell', 'Shell', '日記']
 ---
 # ブログをFC2ブログからHakyll + github-pagesを使うようにした
 

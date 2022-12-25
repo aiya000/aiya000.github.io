@@ -1,6 +1,6 @@
 ---
 title: TypeScript2.6のnull合体演算子も||
-tags: TypeScript
+tags: ['TypeScript']
 ---
 　これは生JavaScriptやES2017と同じであると多分思う。
 

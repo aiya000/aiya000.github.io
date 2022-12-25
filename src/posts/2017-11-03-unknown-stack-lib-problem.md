@@ -1,6 +1,6 @@
 ---
 title: haskell-stackにlibHSyaml-0.8.24-2wdOOQKc6Dt63OCZo8Nf1H-ghc8.2.1.soがないとか言われた
-tags: Haskell
+tags: ['Haskell']
 ---
 # 起こった問題
 

@@ -1,6 +1,6 @@
 ---
 title: mtlのExceptTを使うべき。EitherTでもtransformersのExceptTでもなく。
-tags: Haskell
+tags: ['Haskell']
 ---
 　EitherのMonadTrans相当のものを使いたいときに、何を使うべきか毎回忘れてしまうので、メモしておきます。
 

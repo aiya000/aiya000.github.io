@@ -1,6 +1,6 @@
 ---
 title: GHCの-Wtype-defaultsを解決するにはちゃんと型付けするしかないかなあ
-tags: Haskell
+tags: ['Haskell']
 ---
 Test.hs
 ```haskell
@@ -11,7 +11,7 @@ main = print 10
 このコードを`-Wtype-defaults`付きでコンパイルすると、以下の警告が出る。
 （`-Wtype-defaults`はGHC-8.0.2ではデフォルトで無効）
 
-```console
+```
 $ stack runghc -- -Wtype-defaults Test.hs
 
 Test.hs:2:8: warning: [-Wtype-defaults]

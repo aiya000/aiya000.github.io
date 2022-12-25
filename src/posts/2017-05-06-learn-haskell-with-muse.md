@@ -1,6 +1,6 @@
 ---
 title: ことり、穂乃果と一緒に学ぶHaskell（入門）その1「代数的データ型の定義」
-tags: ラブライブ！で学ぶ, ことり、穂乃果と一緒に学ぶHaskell, Haskell
+tags: ['ラブライブ！で学ぶ', 'ことり、穂乃果と一緒に学ぶHaskell', 'Haskell']
 ---
 
 - [記事一覧 - ことり、穂乃果と一緒に学ぶHaskell（入門）](/tags/ことり、穂乃果と一緒に学ぶHaskell.html)

@@ -1,6 +1,6 @@
 ---
 title: とれたてHaskellまるごと１日分の入ったHaskellプロジェクトがこれです
-tags: 備考録, Haskell
+tags: ['備考録', 'Haskell']
 ---
 　今日はこんなのを作りました。
 

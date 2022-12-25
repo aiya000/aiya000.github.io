@@ -1,6 +1,6 @@
 ---
 title: Haskellのtypeの中身はkind!で！（型レベルハンバーガーの型やいかに？）
-tags: Haskell
+tags: ['Haskell']
 ---
 　ここ4日間ぐらい、主に`DataKinds`と`TypeFamilies`を用いた型レベルハンバーガーの開発（型レベルプログラミング）を行っていた。
 

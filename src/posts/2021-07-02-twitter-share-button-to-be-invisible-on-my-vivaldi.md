@@ -1,6 +1,6 @@
 ---
 title: VivaldiでTwitterのシェアボタンが表示されなくなってた
-tags: Windows, Vivaldi
+tags: ['Windows', 'Vivaldi']
 ---
 
 Boothで商品を購入したので、Twitterにシェアしたいけど、ボタンがない

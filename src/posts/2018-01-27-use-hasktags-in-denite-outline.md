@@ -1,6 +1,6 @@
 ---
 title: How to use 'hasktags' in ':Denite outline'
-tags: Vim, NeoVim
+tags: ['Vim', 'NeoVim']
 ---
 Below lines sets to use `hasktags` in `:Denite outline` :smiley:
 ```vim

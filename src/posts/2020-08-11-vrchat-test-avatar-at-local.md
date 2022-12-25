@@ -1,6 +1,6 @@
 ---
 title: VRChatのアバターをローカルで簡易テストする
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 
 今回は、Unity上でVRChatアバターの**簡易**テストを行う方法を紹介したいと思います :sunglasses:

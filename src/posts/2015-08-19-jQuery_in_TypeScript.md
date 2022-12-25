@@ -1,6 +1,6 @@
 ---
 title: TypeScriptでjQueryを扱う with tsd
-tags: Node.js, TypeScript, 環境
+tags: ['Node.js', 'TypeScript']
 ---
 # TypeScriptでjQueryを扱う with tsd
 

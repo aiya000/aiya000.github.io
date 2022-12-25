@@ -1,6 +1,6 @@
 ---
 title: よさがぴょんぴょんするんじゃあ〜 in VimConf2015
-tags: イベント, Vim
+tags: ['イベント', 'Vim']
 ---
 # よさがぴょんぴょんするんじゃあ〜 in VimConf2015
 

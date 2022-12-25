@@ -1,6 +1,6 @@
 ---
 title: Firefoxのflash動画再生で音が出なかったから直った
-tags: Linux
+tags: ['Linux']
 ---
 　Arch Linux x86-64です。
 

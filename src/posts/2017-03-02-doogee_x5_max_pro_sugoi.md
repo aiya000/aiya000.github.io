@@ -1,6 +1,6 @@
 ---
 title: DOOGEE X5 Max Proがコスパ最強で最高の端末
-tags: Android
+tags: ['Android']
 ---
 　半年前くらいからDOOGEE X5 Max Proを使っているのですが、ようやくおすすめできる環境になったのでおすすめします。  
 ↓↓↓
@@ -54,7 +54,7 @@ CyanogenModは完全にOSSで、実際安全です。
 
 - CyanogenModについて
     - [CyanogenMod - Wikipedia](https://ja.wikipedia.org/wiki/CyanogenMod)
-    - [CyanogenMod - GitHub](https://github.com/CyanogenMod)
+    - [CyanogenMod - GitHub](https://github.com/CyanogenMod)
 
 
 # 導入

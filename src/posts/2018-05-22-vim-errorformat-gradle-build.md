@@ -1,6 +1,6 @@
 ---
 title: gradle buildの出力をVimのQuickFixに表示してエラー箇所にジャンプする
-tags: Vim
+tags: ['Vim']
 ---
 　[vim-quickrun](https://github.com/thinca/vim-quickrun)に依存する。
 

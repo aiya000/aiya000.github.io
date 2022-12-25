@@ -1,6 +1,6 @@
 ---
 title: エクスポートしたいprefabと、その最小限の依存関係のみを持ったunitypackageを作成する
-tags: Unity
+tags: ['Unity']
 ---
 
 Hi!

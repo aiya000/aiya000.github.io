@@ -1,6 +1,6 @@
 ---
 title: 矢澤にこ言語が完成（※）しました
-tags: Haskell, 日記
+tags: ['Haskell', '日記']
 ---
 
 # Haskell製にこ言語
@@ -101,7 +101,6 @@ tags: Haskell, 日記
 
 ※
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">矢澤にこちゃん言語の実行器が完成しなかったけど、パーサーは完成したし、brainfckへのトランスパイルもできるようになってるので、実質完成では？？？</p>&mdash; あいや@型無しラムダ計算 (@public_ai000ya) <a href="https://twitter.com/public_ai000ya/status/814308640714674176">2016年12月29日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 合宿中の最後のcommitは[これ](https://github.com/aiya000/nico-lang/commit/c10f0418d2c8011baddd23ef731f362aa258e5a9)になります。
 
@@ -110,7 +109,6 @@ tags: Haskell, 日記
 　にこ言語はHaskellで開発しているのですが、Haskellの型システム周りは最強なので、こういったことができます。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Haskellで型定義をしてから実定義はundefinedでコンパイル（BDD？）<br>その後テスト書いてテストセカンド。<br>最後に実定義を書くという手法が最高になりましたので、よろしく。</p>&mdash; あいや@型無しラムダ計算 (@public_ai000ya) <a href="https://twitter.com/public_ai000ya/status/814072579681984513">2016年12月28日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 　短い合宿期間中（※）の結構な部分は、この学び及びHaskellのテスト技法の探りに費やされましたが、わりといい学びだったと思います。  
 誰かHaskellのtastyでの、`IO ()`での標準入力と標準出力の扱い方を教えて。

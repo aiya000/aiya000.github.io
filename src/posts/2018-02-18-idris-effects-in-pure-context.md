@@ -1,6 +1,6 @@
 ---
 title: Run a program of Eff in pure contexts
-tags: Idris
+tags: ['Idris']
 ---
 In a situation, I have a program (`Eff`) with a `STATE` effect,
 and the program is pure.

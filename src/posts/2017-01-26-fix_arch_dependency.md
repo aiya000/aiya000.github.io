@@ -1,6 +1,6 @@
 ---
 title: xf86-input-wacomをインストールしたら依存関係ダメだったから直した
-tags: Linux
+tags: ['Linux']
 ---
 xf86-input-wacomをインストールしようとしたら、xorg-serverとの依存関係でダメだった。
 

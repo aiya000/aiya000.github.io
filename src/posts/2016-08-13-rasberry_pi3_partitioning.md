@@ -1,6 +1,6 @@
 ---
 title: ラズパイのためのパーティション分割
-tags: Linux, RasberryPi, 環境
+tags: ['Linux', 'RasberryPi']
 ---
 # ラズパイのためのパーティション分割
 　ラズパイ3 Type Bを買ったので、ラズパイのブート領域であるmicroSDへの過度な書き込みアクセスを避けるべく

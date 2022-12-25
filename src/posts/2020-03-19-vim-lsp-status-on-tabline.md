@@ -1,6 +1,6 @@
 ---
 title: Vimのtablineに、vim-lspのrunningなserversを表示する
-tags: Vim
+tags: ['Vim']
 ---
 
 ![example](/2020-03-19-vim-lsp-status-on-tabline/example.png)

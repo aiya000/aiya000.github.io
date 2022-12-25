@@ -1,6 +1,6 @@
 ---
 title: Firefoxをアップデートしたらfcitxが動かなくなったので
-tags: 環境
+tags: ['Linux']
 ---
 
 # Firefoxをアップデートしたらfcitxが動かなくなったので

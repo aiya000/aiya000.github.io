@@ -1,6 +1,6 @@
 ---
 title: NOeSISカフェに行ってきた
-tags: 日記
+tags: ['日記']
 ---
 # NOeSISカフェに行ってきた
 　念願のNOeSISカフェに行ってきました！！
@@ -18,12 +18,6 @@ tags: 日記
 店内  
 ![店内](/2016-08-06-visited_NOeSIS_cafe/shop1.png)
 ![店内](/2016-08-06-visited_NOeSIS_cafe/shop2.png)
-
-~~NOeSIS定番の~~スカート覗き (誰かがやってたののリスペクト)  
-![スカート覗き](/2016-08-06-visited_NOeSIS_cafe/maya-skirt.png)
-![スカート覗き](/2016-08-06-visited_NOeSIS_cafe/haruka-skirt.png)  
-一夜先輩、遥ちゃんゴメンネ！！ :P
-
 
 ヨーグルトご飯とUSHI  
 ![ヨーグルトご飯とUSHI](/2016-08-06-visited_NOeSIS_cafe/yoghurt-ushi.png)  

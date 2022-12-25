@@ -1,6 +1,6 @@
 ---
 title: gitでcommitを1つに統合すべき場合 及び 1つのcommitを分解すべき場合 - プロ生アドベントカレンダー2016 - 9日目
-tags: git, AdventCalendar
+tags: ['git', 'AdventCalendar']
 ---
 　なんか勢いでブログ記事を書いたところ、丁度今日のプロ生アドベントカレンダーが空いてたので登録する。  
 本記事は[Qiita版プロ生アドベントカレンダー](http://qiita.com/advent-calendar/2016/pronama-chan) 9日目の記事です。  

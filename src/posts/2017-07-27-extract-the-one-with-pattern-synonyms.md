@@ -1,6 +1,6 @@
 ---
 title: PatternSynonymsを用いて利用側コードを変更せずにある値構築子を削除する
-tags: Haskell
+tags: ['Haskell']
 ---
 
 - [Define Symbol as the intermediate representation - aiya000/hs-zuramaru@2a9ff48 - GitHub]()

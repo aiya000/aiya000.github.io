@@ -1,6 +1,6 @@
 ---
 title: 【Nuxt.js】storeでないモジュールを`@/store/`配下に置いてはいけない
-tags: Nuxt.js, TypeScript, JavaScript
+tags: ['Nuxt.js', 'TypeScript', 'JavaScript']
 ---
 【Nuxt.js】storeでないモジュールを`@/store/`配下に置いてはいけない。[^notice-at]
 

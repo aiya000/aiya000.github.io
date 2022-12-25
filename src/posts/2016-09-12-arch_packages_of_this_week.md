@@ -1,6 +1,6 @@
 ---
 title: 今週Archに入れたパッケージ
-tags: Linux
+tags: ['Linux']
 ---
 　今週以外のも含まれてるかも。  
 今週はxmonad, xmobar日和です。

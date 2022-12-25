@@ -1,6 +1,6 @@
 ---
-title: Haskellのdoctest (ghci) の:{..:}中のletでincorrect indentation
-tags: Haskell
+title: 'Haskellのdoctest (ghci) の:{..:}中のletでincorrect indentation'
+tags: ['Haskell']
 ---
 こんな感じのdoctestを書いていると怒られた :sob:
 

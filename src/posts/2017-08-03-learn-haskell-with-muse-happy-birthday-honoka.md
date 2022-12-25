@@ -1,6 +1,6 @@
 ---
 title: ことり、穂乃果と一緒に学ぶHaskell（入門）その5「様々な文字列型とIsStringそしてOverloadedStrings」
-tags: ラブライブ！で学ぶ, ことり、穂乃果と一緒に学ぶHaskell, Haskell
+tags: ['ラブライブ！で学ぶ', 'ことり、穂乃果と一緒に学ぶHaskell', 'Haskell']
 ---
 
 - [前回 - ことり、穂乃果と一緒に学ぶHaskell（入門）その4「型クラスの定義と実装」](./2017-05-27-learn-haskell-with-muse.html)

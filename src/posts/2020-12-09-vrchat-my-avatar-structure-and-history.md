@@ -1,6 +1,6 @@
 ---
 title: 【Avatar3.0】初心者におすすめのアバター改変【段階別】
-tags: VRChat, Unity
+tags: ['VRChat', 'Unity']
 ---
 
 # 目次

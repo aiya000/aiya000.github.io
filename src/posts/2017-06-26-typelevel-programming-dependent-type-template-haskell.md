@@ -1,6 +1,6 @@
 ---
 title: 型レベルハンバーガーについての報告
-tags: Haskell
+tags: ['Haskell']
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->

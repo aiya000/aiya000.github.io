@@ -1,6 +1,6 @@
 ---
 title: Ubuntu15.04にnodejsとtypescriptを入れた
-tags: 環境, Node.js
+tags: ['TypeScript', 'Node.js']
 ---
 # Ubuntu15.04にnodejsとtypescriptを入れた
 
