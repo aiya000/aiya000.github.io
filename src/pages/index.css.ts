@@ -14,3 +14,13 @@ export const logo = style({
   maxWidth: '70%',
   width: '50%',
 })
+
+export const blogName = style({
+  fontSize: 24,
+
+  '@media': {
+    [v.mediaMinWidth.pc]: {
+      fontSize: 48,
+    },
+  },
+})

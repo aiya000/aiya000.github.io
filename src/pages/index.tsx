@@ -11,9 +11,7 @@ import Layout from '@/components/layout'
 import { raise } from '@/modules/Error'
 
 const IndexPage: React.FC<PageProps<Queries.IndexPageQuery>> = ({ data }) => {
-  const postPreviews = [...data.allMarkdownRemark.edges]
-    .sort((x, y) => compareBySlugDateReversed(x.node.fields.slug, y.node.fields.slug))
-    .map(extractEdgeToPost)
+  const postPreviews = data.allMarkdownRemark.edges.map(extractEdgeToPost)
 
   return (
     <Layout className={style.container}>
@@ -22,12 +20,6 @@ const IndexPage: React.FC<PageProps<Queries.IndexPageQuery>> = ({ data }) => {
       {postPreviews}
     </Layout>
   )
-
-  function compareBySlugDateReversed(slugX: string, slugY: string): number {
-    const x = new Date(slugX.match(/^\d{4}-\d{2}-\d{2}/) ?? raise('.date of x could not get.'))
-    const y = new Date(slugY.match(/^\d{4}-\d{2}-\d{2}/) ?? raise('.date of y could not get.'))
-    return x > y ? -1 : x === y ? 0 : 1
-  }
 }
 
 function extractEdgeToPost(
@@ -35,10 +27,16 @@ function extractEdgeToPost(
 ): React.ReactNode {
   const title = edge.node.frontmatter?.title ?? raise('.title is not existence.')
   const tags =
-    edge.node.frontmatter?.tags?.split?.(',')?.map?.((tag) => tag.trim()) ??
+    edge.node.frontmatter?.tags?.flatMap((tag) => (tag === null ? [] : [tag])) ??
     raise('.tags is not existence.')
   const slug = edge.node.fields?.slug ?? raise('.slug is not existence.')
-  const excerpt = edge.node.excerpt ?? raise('.excerpt is not existence.')
+  const excerpt = (
+    <div>
+      {(edge.node.excerpt ?? raise('.excerpt is not existence.')).split('\n').map((line) => (
+        <p key={line}>{line}</p>
+      ))}
+    </div>
+  )
 
   return <PostPreview title={title} tags={tags} slug={slug} excerpt={excerpt} key={edge.node.id} />
 }
@@ -49,8 +47,11 @@ export const Head: HeadFC = () => <Seo routeName="Home" />
 
 export const query = graphql`
   query IndexPage {
-    # ne excludes directories
-    allMarkdownRemark(filter: { frontmatter: { title: { ne: "" } } }) {
+    allMarkdownRemark(
+      # ne excludes directories
+      filter: { frontmatter: { title: { ne: "" } } }
+      sort: { fields: { slug: DESC } }
+    ) {
       edges {
         node {
           id

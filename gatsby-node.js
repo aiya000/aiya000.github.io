@@ -31,42 +31,74 @@ exports.onCreateNode = ({ node, actions }) => {
 /**
  * Creates posts pages.
  */
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
   const query = await graphql(`
-    query {
-      allMarkdownRemark {
+    {
+      allMarkdownRemark(sort: { fields: { slug: DESC } }) {
         edges {
           node {
             fields {
               slug
             }
+            frontmatter {
+              tags
+            }
           }
+        }
+      }
+      tagsGroup: allMarkdownRemark {
+        group(field: { frontmatter: { tags: SELECT } }) {
+          fieldValue
         }
       }
     }
   `)
+  if (query.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query: ${query.errors}`)
+    return
+  }
 
-  for (edge of query.data.allMarkdownRemark.edges) {
-    const postPath = `/posts/${edge.node.fields.slug}`
+  await createPostPages(createPage, query)
+  await createTagPages(createPage, query)
+  return
 
-    createPage({
-      component: path.resolve('./src/post.tsx'),
-      path: postPath,
-      context: {
-        slug: edge.node.fields.slug,
-      },
-    })
+  async function createPostPages(createPage, query) {
+    for (edge of query.data.allMarkdownRemark.edges) {
+      const postPath = `/posts/${edge.node.fields.slug}`
 
-    // For compatible with my old blog's URL, redirect to avobe url.
-    // NOTE: By unknown reason, createRedirect is not working.
-    createPage({
-      component: path.resolve('./src/post-html-redirect.tsx'),
-      path: `${postPath}.html`,
-      context: {
-        slug: edge.node.fields.slug,
-      },
-    })
+      createPage({
+        component: path.resolve('./src/post.tsx'),
+        path: postPath,
+        context: {
+          slug: edge.node.fields.slug,
+        },
+      })
+
+      // For compatible with my old blog's URL, redirect to avobe url.
+      // NOTE: By unknown reason, createRedirect is not working.
+      createPage({
+        component: path.resolve('./src/post-html-redirect.tsx'),
+        path: `${postPath}.html`,
+        context: {
+          slug: edge.node.fields.slug,
+        },
+      })
+    }
+  }
+
+  /**
+   * https://www.gatsbyjs.com/docs/adding-tags-and-categories-to-blog-posts/
+   */
+  async function createTagPages(createPage, query) {
+    const tags = query.data.tagsGroup.group.map((group) => group.fieldValue)
+    for (const tag of tags) {
+      createPage({
+        component: path.resolve('./src/PostListOfTag.tsx'),
+        path: `/tags/${tag}`,
+        context: { tag },
+      })
+    }
   }
 }

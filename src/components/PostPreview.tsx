@@ -13,21 +13,25 @@ export type Post = {
   title: string
   tags: Array<string>
   slug: string
-  excerpt: string
+  excerpt: React.ReactNode
 }
 
 const PostPreview: React.FC<Props> = ({ title, tags, slug, excerpt }) => {
   const postUrl = `/posts/${slug}`
-  const date = slug.match(/^\d{4}-\d{2}-\d{2}/) ?? raise('.date could not get.')
+  const date = slug.match(/^\d{4}-\d{2}-\d{2}/)?.[0] ?? raise('.date could not get.')
 
   const Tags = () => (
     <div className={style.tags}>
-      {tags.map((tag) => (
-        <span className={style.tag} key={tag}>
-          <img className={style.tagImage} src={tagImage} alt="tag" />
-          {tag}
-        </span>
-      ))}
+      {tags.map((tag) => {
+        return (
+          <span className={style.tag} key={tag}>
+            <img className={style.tagImage} src={tagImage} alt="tag" />
+            <Link className={style.tagLink} to={`/tags/${tag}`}>
+              {tag}
+            </Link>
+          </span>
+        )
+      })}
     </div>
   )
 

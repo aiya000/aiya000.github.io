@@ -2,16 +2,6 @@ import { style } from '@vanilla-extract/css'
 
 import * as v from '@/css/variables.css'
 
-export const blogName = style({
-  fontSize: 24,
-
-  '@media': {
-    [v.mediaMinWidth.pc]: {
-      fontSize: 48,
-    },
-  },
-})
-
 export const blogEntry = style({
   backgroundColor: v.color.sea,
   border: `1px solid ${v.color.black}`,
@@ -47,19 +37,23 @@ export const tags = style({
   alignItems: 'center',
   display: 'flex',
   flexDirection: 'row',
-  marginTop: 8,
 })
 
 export const tag = style({
   alignItems: 'center',
-  borderRadius: 16,
   display: 'flex',
   flexDirection: 'row',
-  margin: '0 8px',
+  margin: '0 12px',
 })
 
 export const tagImage = style({
   width: '1.25rem',
+})
+
+export const tagLink = style({
+  color: v.color.black,
+  marginLeft: 4,
+  textDecoration: 'none',
 })
 
 export const excerpt = style({
