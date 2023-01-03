@@ -12,9 +12,9 @@ const About: React.FC = () => (
     <article>
       <h1 className={style.h1}>このブログについて</h1>
       <img alt="my-logo" src={meSquareImage} className={style.myLogo} />
-      <p>技術記事・イベントの参加記事・日記や私的な備考録を書いていきます。</p>
+      <p>技術記事・イベントの参加記事・日記や私的な備考録など、雑多な記事を書いています。</p>
+      <p>雑多だったり実験的な記事が多めなのは許してね！</p>
       <p>記事中のコードについては、コンパイルで検証するように心がけています。</p>
-      <p>寄付を歓迎しております！</p>
       <ul>
         <li>
           <p>
