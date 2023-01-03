@@ -1,9 +1,9 @@
 import clsx from 'clsx'
 import React from 'react'
 
-import * as style from './layout.css'
+import * as style from './Layout.css'
 
-import Navbar from '@/components/navbar'
+import Navbar from '@/components/Navbar'
 
 export type Props = {
   className?: string

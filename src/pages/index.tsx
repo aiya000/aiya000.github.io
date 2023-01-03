@@ -5,9 +5,9 @@ import React from 'react'
 import * as style from './index.css'
 
 import perolalaImage from '@/assets/images/perolala.png'
+import Layout from '@/components/Layout'
 import PostPreview from '@/components/PostPreview'
 import Seo from '@/components/Seo'
-import Layout from '@/components/layout'
 import { raise } from '@/modules/Error'
 
 const IndexPage: React.FC<PageProps<Queries.IndexPageQuery>> = ({ data }) => {

@@ -4,8 +4,8 @@ import React from 'react'
 import * as style from './about.css'
 
 import meSquareImage from '@/assets/images/me-square.png'
+import Layout from '@/components/Layout'
 import Seo from '@/components/Seo'
-import Layout from '@/components/layout'
 
 const About: React.FC = () => (
   <Layout>

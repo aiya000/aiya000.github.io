@@ -1,9 +1,9 @@
 import { HeadFC, graphql } from 'gatsby'
 import React from 'react'
 
+import Layout from '@/components/Layout'
 import Seo from '@/components/Seo'
 import WriterProfile from '@/components/WriterProfile'
-import Layout from '@/components/layout'
 import { raise } from '@/modules/Error'
 
 /**

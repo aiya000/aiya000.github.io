@@ -9,8 +9,8 @@ import meSquareImage from '@/assets/images/me-square.png'
 import meTeokureImage from '@/assets/images/me-teokure.png'
 import muImage from '@/assets/images/mu.png'
 import mu2Image from '@/assets/images/mu2.png'
+import Layout from '@/components/Layout'
 import Seo from '@/components/Seo'
-import Layout from '@/components/layout'
 
 const Profile: React.FC = () => (
   <Layout>

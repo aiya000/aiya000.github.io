@@ -1,7 +1,7 @@
 import { Link, graphql } from 'gatsby'
 import React from 'react'
 
-import Layout from '@/components/layout'
+import Layout from '@/components/Layout'
 import { raise } from '@/modules/Error'
 
 /**

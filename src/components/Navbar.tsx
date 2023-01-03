@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import { useMediaQuery } from 'usehooks-ts'
 
-import * as style from './navbar.css'
+import * as style from './Navbar.css'
 
 import perolalaImage from '@/assets/images/perolala.png'
 import { mediaMinWidth } from '@/css/variables.css'

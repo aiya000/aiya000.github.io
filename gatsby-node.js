@@ -69,7 +69,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const postPath = `/posts/${edge.node.fields.slug}`
 
       createPage({
-        component: path.resolve('./src/post.tsx'),
+        component: path.resolve('./src/Post.tsx'),
         path: postPath,
         context: {
           slug: edge.node.fields.slug,
@@ -79,7 +79,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       // For compatible with my old blog's URL, redirect to avobe url.
       // NOTE: By unknown reason, createRedirect is not working.
       createPage({
-        component: path.resolve('./src/post-html-redirect.tsx'),
+        component: path.resolve('./src/PostHtmlRedirect.tsx'),
         path: `${postPath}.html`,
         context: {
           slug: edge.node.fields.slug,
