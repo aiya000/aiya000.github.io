@@ -61,7 +61,7 @@ export const tagLink = style({
 export const excerpt = style({
   fontSize: 16,
   marginTop: 16,
-  maxHeight: 300,
+  maxHeight: 500,
   overflowY: 'hidden',
 })
 

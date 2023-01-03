@@ -55,7 +55,7 @@ export const query = graphql`
       edges {
         node {
           id
-          excerpt(format: HTML, pruneLength: 50)
+          excerpt(format: HTML, pruneLength: 100)
           frontmatter {
             title
             tags
