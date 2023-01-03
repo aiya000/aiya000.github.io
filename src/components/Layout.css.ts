@@ -3,6 +3,7 @@ import { style } from '@vanilla-extract/css'
 import { mediaMinWidth, color } from '@/css/variables.css'
 
 export const container = style({
+  overflowX: 'hidden',
   padding: 16,
 
   '@media': {

@@ -25,6 +25,7 @@ export const blogDate = style({
 export const clock = style({
   width: 32,
 })
+
 export const category = style({
   background: `linear-gradient(90deg, ${v.color.darker}, ${v.color.darker})`,
   borderRadius: 16,
@@ -57,7 +58,10 @@ export const tagLink = style({
 })
 
 export const excerpt = style({
+  fontSize: 16,
   marginTop: 16,
+  maxHeight: 300,
+  overflowY: 'hidden',
 })
 
 export const readMore = style({

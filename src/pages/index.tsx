@@ -27,15 +27,15 @@ function extractEdgeToPost(
 ): React.ReactNode {
   const title = edge.node.frontmatter?.title ?? raise('.title is not existence.')
   const tags =
-    edge.node.frontmatter?.tags?.flatMap((tag) => (tag === null ? [] : [tag])) ??
+    edge.node.frontmatter?.tags?.filter((tag): tag is string => tag !== null) ??
     raise('.tags is not existence.')
   const slug = edge.node.fields?.slug ?? raise('.slug is not existence.')
   const excerpt = (
-    <div>
-      {(edge.node.excerpt ?? raise('.excerpt is not existence.')).split('\n').map((line) => (
-        <p key={line}>{line}</p>
-      ))}
-    </div>
+    <div
+      dangerouslySetInnerHTML={{
+        __html: edge.node.excerpt ?? raise('.excerpt is not existence.'),
+      }}
+    />
   )
 
   return <PostPreview title={title} tags={tags} slug={slug} excerpt={excerpt} key={edge.node.id} />
@@ -55,7 +55,7 @@ export const query = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 250)
+          excerpt(format: HTML, pruneLength: 50)
           frontmatter {
             title
             tags
