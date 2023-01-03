@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import { Link } from 'gatsby'
 import React from 'react'
 
@@ -5,18 +6,14 @@ import * as style from './PostPreview.css'
 
 import clockImage from '@/assets/images/clock.svg'
 import tagImage from '@/assets/images/tag-solid.svg'
+import { Post } from '@/models/Post'
 import { raise } from '@/modules/Error'
 
-export type Props = Post
-
-export type Post = {
-  title: string
-  tags: Array<string>
-  slug: string
-  excerpt: React.ReactNode
+export type Props = Post & {
+  className: string
 }
 
-const PostPreview: React.FC<Props> = ({ title, tags, slug, excerpt }) => {
+const PostPreview: React.FC<Props> = ({ title, tags, slug, excerpt, className }) => {
   const postUrl = `/posts/${slug}`
   const date = slug.match(/^\d{4}-\d{2}-\d{2}/)?.[0] ?? raise('.date could not get.')
 
@@ -36,7 +33,7 @@ const PostPreview: React.FC<Props> = ({ title, tags, slug, excerpt }) => {
   )
 
   return (
-    <div className={style.blogEntry}>
+    <div className={clsx(style.blogEntry, className)}>
       <div className={style.blogDate}>
         <img src={clockImage} alt="clock" className={style.clock} />
         <span className={style.category}>{date}</span>

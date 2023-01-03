@@ -38,6 +38,7 @@ export const tags = style({
   alignItems: 'center',
   display: 'flex',
   flexDirection: 'row',
+  flexWrap: 'wrap',
 })
 
 export const tag = style({

@@ -1,6 +1,8 @@
 import { HeadFC, graphql } from 'gatsby'
 import React from 'react'
 
+import * as style from './PostListOfTag.css'
+
 import Layout from '@/components/Layout'
 import PostPreview from '@/components/PostPreview'
 import Seo from '@/components/Seo'
@@ -15,7 +17,9 @@ const PostListOfTag: React.FC<{ data: Queries.PostListOfTagQuery }> = ({ data })
 
   return (
     <div>
-      <Layout>{postPreviews}</Layout>
+      <Layout>
+        <div className={style.previews}>{postPreviews}</div>
+      </Layout>
 
       <WriterProfile />
     </div>
@@ -26,8 +30,8 @@ function extractEdgeToPost(
   edge: Queries.PostListOfTagQuery['allMarkdownRemark']['edges'][0],
 ): React.ReactNode {
   const title = edge.node.frontmatter?.title ?? raise('.title is not existence.')
-  const tags = (edge.node.frontmatter?.tags ?? raise('.tags is not existence.')).flatMap((tag) =>
-    tag === null ? [] : [tag],
+  const tags = (edge.node.frontmatter?.tags ?? raise('.tags is not existence.')).filter(
+    (tag): tag is string => tag !== null,
   )
   const slug = edge.node.fields?.slug ?? raise('.slug is not existence.')
   const excerpt = (
@@ -38,7 +42,16 @@ function extractEdgeToPost(
     />
   )
 
-  return <PostPreview title={title} tags={tags} slug={slug} excerpt={excerpt} key={edge.node.id} />
+  return (
+    <PostPreview
+      className={style.preview}
+      title={title}
+      tags={tags}
+      slug={slug}
+      excerpt={excerpt}
+      key={edge.node.id}
+    />
+  )
 }
 
 export default PostListOfTag
