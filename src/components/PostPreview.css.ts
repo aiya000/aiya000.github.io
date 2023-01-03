@@ -1,4 +1,4 @@
-import { style } from '@vanilla-extract/css'
+import { style, globalStyle } from '@vanilla-extract/css'
 
 import * as v from '@/css/variables.css'
 
@@ -64,6 +64,18 @@ export const excerpt = style({
   maxHeight: 500,
   overflowY: 'hidden',
 })
+
+globalStyle(`${excerpt} > div > h1`, {
+  ...v.globalH1,
+  marginTop: 0,
+})
+globalStyle(`${excerpt} > div > h1:before`, v.globalH1Before)
+
+globalStyle(`${excerpt} > div > h2`, {
+  ...v.globalH2,
+  marginTop: 0,
+})
+globalStyle(`${excerpt} > div > h2:before`, v.globalH2Before)
 
 export const readMore = style({
   marginTop: 8,
