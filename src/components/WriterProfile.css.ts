@@ -28,10 +28,4 @@ export const content = style({
   borderRadius: 16,
   backgroundColor: v.color.white,
   padding: 20,
-
-  '@media': {
-    [v.mediaMinWidth.tablet]: {
-      width: '50%',
-    },
-  },
 })

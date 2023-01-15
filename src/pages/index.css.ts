@@ -24,6 +24,49 @@ export const blogName = style({
   },
 })
 
+export const body = style({
+  width: '100%',
+
+  '@media': {
+    [v.mediaMinWidth.pc]: {
+      alignItems: 'flex-start',
+      display: 'flex',
+      flexDirection: 'row',
+    },
+  },
+})
+
 export const postPreviews = style({
   width: '100%',
+
+  '@media': {
+    [v.mediaMinWidth.pc]: {
+      gap: 36,
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'space-around',
+      width: '76%',
+    },
+  },
+})
+
+export const profile = style({
+  '@media': {
+    [v.mediaMinWidth.pc]: {
+      width: '20%',
+    },
+  },
+})
+
+export const postPreview = style({
+  '@media': {
+    [v.mediaMinWidth.pc]: {
+      width: 500,
+    },
+  },
+})
+
+export const viewAll = style({
+  marginTop: 36,
+  fontSize: 24,
 })

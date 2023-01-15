@@ -6,7 +6,6 @@ export const entry = style({
   backgroundColor: v.color.sea,
   border: `1px solid ${v.color.black}`,
   boxShadow: '1px 1px 0.5em black inset',
-  margin: '16px 8px',
   padding: '16px 20px',
 })
 

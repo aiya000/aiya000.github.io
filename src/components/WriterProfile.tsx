@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import React from 'react'
 
 import * as style from './WriterProfile.css.ts'
@@ -5,8 +6,12 @@ import * as style from './WriterProfile.css.ts'
 import mu2Image from '@/assets/images/mu2.png'
 import { raise } from '@/modules/Error'
 
-const WriterProfile: React.FC = () => (
-  <div className={style.container}>
+export type Props = {
+  className?: string
+}
+
+const WriterProfile: React.FC<Props> = ({ className }) => (
+  <div className={clsx(style.container, className)}>
     <div className={style.content}>
       <h2>筆者プロフィール</h2>
       <img className={style.icon} src={mu2Image} alt="my-latest-logo" />

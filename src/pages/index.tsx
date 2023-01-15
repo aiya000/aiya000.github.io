@@ -8,6 +8,7 @@ import perolalaImage from '@/assets/images/perolala.png'
 import Layout from '@/components/Layout'
 import PostPreview from '@/components/PostPreview'
 import Seo from '@/components/Seo'
+import WriterProfile from '@/components/WriterProfile'
 import { raise } from '@/modules/Error'
 
 const IndexPage: React.FC<PageProps<Queries.IndexPageQuery>> = ({ data }) => {
@@ -17,8 +18,15 @@ const IndexPage: React.FC<PageProps<Queries.IndexPageQuery>> = ({ data }) => {
     <Layout className={style.container}>
       <img src={perolalaImage} alt="logo" className={style.logo} />
       <h1 className={style.blogName}>aiya000のメモ帳</h1>
-      <div className={style.postPreviews}>{postPreviews}</div>
-      <Link to="/archive">全ての記事を表示する</Link>
+
+      <div className={style.body}>
+        <div className={style.postPreviews}>{postPreviews}</div>
+        <WriterProfile className={style.profile} />
+      </div>
+
+      <div className={style.viewAll}>
+        <Link to="/archive">全ての記事を表示する</Link>
+      </div>
     </Layout>
   )
 }
@@ -39,7 +47,16 @@ function extractEdgeToPost(
     />
   )
 
-  return <PostPreview title={title} tags={tags} slug={slug} excerpt={excerpt} key={edge.node.id} />
+  return (
+    <PostPreview
+      className={style.postPreview}
+      title={title}
+      tags={tags}
+      slug={slug}
+      excerpt={excerpt}
+      key={edge.node.id}
+    />
+  )
 }
 
 export default IndexPage
