@@ -63,11 +63,12 @@ export const color = {
  * Should use with [[globalH1Before]].
  */
 export const globalH1 = {
-  fontSize: 24,
+  fontSize: 20,
   paddingLeft: 16,
   position: 'relative',
+
   '@media': {
-    [mediaMinWidth.pc]: {
+    [mediaMinWidth.tablet]: {
       fontSize: 30,
     },
   },
@@ -110,10 +111,10 @@ export const h1 = {
 export const globalH2 = {
   ...globalH1,
   marginTop: 48,
-  fontSize: 20,
+  fontSize: 16,
 
   '@media': {
-    [mediaMinWidth.pc]: {
+    [mediaMinWidth.tablet]: {
       fontSize: 26,
     },
   },
@@ -139,4 +140,12 @@ export const zIndex = {
    * Most front.
    */
   front: 100,
+} as const
+
+/**
+ * Standard font sizes.
+ */
+export const fontSize = {
+  sp: 12,
+  pc: 16,
 } as const

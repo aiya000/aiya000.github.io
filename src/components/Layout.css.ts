@@ -15,5 +15,11 @@ export const container = style({
 
 export const content = style({
   backgroundColor: color.white,
-  padding: 20,
+  padding: 10,
+
+  '@media': {
+    [mediaMinWidth.tablet]: {
+      padding: 20,
+    },
+  },
 })

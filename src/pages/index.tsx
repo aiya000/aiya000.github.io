@@ -17,7 +17,7 @@ const IndexPage: React.FC<PageProps<Queries.IndexPageQuery>> = ({ data }) => {
     <Layout className={style.container}>
       <img src={perolalaImage} alt="logo" className={style.logo} />
       <h1 className={style.blogName}>aiya000のメモ帳</h1>
-      {postPreviews}
+      <div className={style.postPreviews}>{postPreviews}</div>
       <Link to="/archive">全ての記事を表示する</Link>
     </Layout>
   )

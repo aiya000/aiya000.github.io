@@ -33,13 +33,13 @@ const PostPreview: React.FC<Props> = ({ title, tags, slug, excerpt, className })
   )
 
   return (
-    <div className={clsx(style.blogEntry, className)}>
-      <div className={style.blogDate}>
+    <div className={clsx(style.entry, className)}>
+      <div className={style.date}>
         <img src={clockImage} alt="clock" className={style.clock} />
         <span className={style.category}>{date}</span>
       </div>
 
-      <h3 className={style.blogTitle}>
+      <h3 className={style.title}>
         <Link to={postUrl}>{title}</Link>
       </h3>
       <Tags />

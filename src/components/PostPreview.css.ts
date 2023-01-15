@@ -2,21 +2,28 @@ import { style, globalStyle } from '@vanilla-extract/css'
 
 import * as v from '@/css/variables.css'
 
-export const blogEntry = style({
+export const entry = style({
   backgroundColor: v.color.sea,
   border: `1px solid ${v.color.black}`,
   boxShadow: '1px 1px 0.5em black inset',
   margin: '16px 8px',
   padding: '16px 20px',
-  width: '90%',
 })
 
-export const blogTitle = style({
+export const title = style({
+  fontSize: v.fontSize.sp + 4,
   margin: '4px 0 8px 0',
+  overflowWrap: 'break-word',
   padding: 0,
+
+  '@media': {
+    [v.mediaMinWidth.tablet]: {
+      fontSize: v.fontSize.pc + 4,
+    },
+  },
 })
 
-export const blogDate = style({
+export const date = style({
   marginTop: 8,
   display: 'flex',
   alignItems: 'center',
@@ -59,20 +66,28 @@ export const tagLink = style({
 })
 
 export const excerpt = style({
-  fontSize: 16,
+  fontSize: v.fontSize.sp,
   marginTop: 16,
   maxHeight: 500,
   overflowY: 'hidden',
+
+  '@media': {
+    [v.mediaMinWidth.tablet]: {
+      fontSize: v.fontSize.pc,
+    },
+  },
 })
 
 globalStyle(`${excerpt} > div > h1`, {
   ...v.globalH1,
+  fontSize: v.globalH1.fontSize * 0.8,
   marginTop: 0,
 })
 globalStyle(`${excerpt} > div > h1:before`, v.globalH1Before)
 
 globalStyle(`${excerpt} > div > h2`, {
   ...v.globalH2,
+  fontSize: v.globalH2.fontSize * 0.8,
   marginTop: 0,
 })
 globalStyle(`${excerpt} > div > h2:before`, v.globalH2Before)
