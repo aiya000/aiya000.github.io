@@ -13,6 +13,7 @@ const config: GatsbyConfig = {
 
   plugins: [
     'gatsby-plugin-image',
+    'gatsby-plugin-mdx',
     'gatsby-plugin-postcss',
     'gatsby-plugin-sharp',
     'gatsby-plugin-twitter',

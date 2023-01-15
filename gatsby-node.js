@@ -60,11 +60,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
-  await createPostPages(createPage, query)
-  await createTagPages(createPage, query)
+  createPostPages(createPage, query)
+  createTagPages(createPage, query)
   return
 
-  async function createPostPages(createPage, query) {
+  function createPostPages(createPage, query) {
     for (edge of query.data.allMarkdownRemark.edges) {
       const postPath = `/posts/${edge.node.fields.slug}`
 
@@ -91,7 +91,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   /**
    * https://www.gatsbyjs.com/docs/adding-tags-and-categories-to-blog-posts/
    */
-  async function createTagPages(createPage, query) {
+  function createTagPages(createPage, query) {
     const tags = query.data.tagsGroup.group.map((group) => group.fieldValue)
     for (const tag of tags) {
       createPage({
