@@ -46,14 +46,14 @@ export const link = style({
 export const menuButton = style({
   fontWeight: 'bold',
   padding: '8px 16px',
-  border: `solid 2px ${color.sea}`,
-  color: color.sea,
+  border: `solid 2px ${color.silver}`,
+  color: color.silver,
 })
 
 export const menuItems = style({
   alignItems: 'flex-start',
   backgroundColor: color.white,
-  border: `solid 2px ${color.sea}`,
+  border: `solid 2px ${color.silver}`,
   borderRadius: 8,
   display: 'flex',
   flexDirection: 'column',
@@ -73,7 +73,7 @@ export const menuItem = style([
 ])
 
 export const point = style({
-  color: color.sea,
+  color: color.silver,
 })
 
 export const linkText = style({
