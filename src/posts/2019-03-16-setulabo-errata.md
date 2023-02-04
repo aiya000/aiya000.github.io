@@ -17,12 +17,14 @@ tags: ['頒布物']
 　[せつラボ 〜圏論の基本〜](https://aiya000.booth.pm/items/1298622)の誤りについての、Web正誤表です。
 逐次、更新されます。
 
-## 第二版で発生した誤りと修正
+## 誤りと修正
 
-| 誤 | 正 |
-|:-|:-|
-| P.46: 「リスト5.18: ダメ: IntとCharの両⽅を組み合わせた値 のコード」 **(Int, Char)** [^left-either-does-not-include] | **Either Int Char** [^right-either-does-not-include] |
-| P.105:「リスト10.13: &&&とは違う？ 関数**a**」 | 「リスト10.13: &&&とは違う？ 関数**h**」 |
+| 誤 | 正 | 発生した日もしくは版 | 修正した日もしくは版 |
+|:-|:-|:-|
+| P.46: 「リスト5.18: ダメ: IntとCharの両⽅を組み合わせた値のコード」 **(Int, Char)** [^left-either-does-not-include] | **Either Int Char** [^right-either-does-not-include] | 第二版 | 2022年 |
+| P.105:「リスト10.13: &&&とは違う？ 関数**a**」 | 「リスト10.13: &&&とは違う？ 関数**h**」 | 第二版 | 2022年 |
+| P48: 「リスト15.20」 **Maybe Char** [^1-wrong] | **Either () Char** [^1-correct] | 第二版 | 2023-02-04 |
+| `(sc ○ ts()▲)` | `(sc ○ ts(▲))` | 第二版 | 2023-02-04 |
 
 - - - - -
 
@@ -40,4 +42,20 @@ tags: ['頒布物']
 (-10, 'a') :: Either Int Char    --    (-10, 'a') ∈ Either Int Char
 (252, 'q') :: Either Int Char    --    (252, 'q') ∈ Either Int Char
 (100, 'z') :: Either Int Char    --    (100, 'z') ∈ Either Int Char
+```
+
+[^1-wrong]: 誤
+```haskell
+Left  ()    :: Maybe Char    --    無  ∈ Either () Char
+Right (-10) :: Maybe Char    --    -10 ∈ Either () Char
+Right  252  :: Maybe Char    --    252 ∈ Either () Char
+Right  100  :: Maybe Char    --    100 ∈ Either () Char
+```
+
+[^1-correct]: 正  
+```haskell
+Left  ()    :: Either () Char    --    無  ∈ Either () Char
+Right (-10) :: Either () Char    --    -10 ∈ Either () Char
+Right  252  :: Either () Char    --    252 ∈ Either () Char
+Right  100  :: Either () Char    --    100 ∈ Either () Char
 ```
