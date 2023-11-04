@@ -20,7 +20,8 @@
     "fix": "run-s fix:eslint fix:prettier fix:stylelint:css",
     "fix:eslint": "eslint --fix --ext .js,.jsx,.ts,.tsx,.vue ./src",
     "fix:stylelint:css": "stylelint --fix ./src/**/*.{css,scss,sass,vue}",
-    "fix:prettier": "prettier --write ./src/**/*.{js,jsx,ts,tsx,vue,css,scss,sass}"
+    "fix:prettier": "prettier --write ./src/**/*.{js,jsx,ts,tsx,vue,css,scss,sass}",
+    "deploy": "cd ./scripts && npm run deploy"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.4",
