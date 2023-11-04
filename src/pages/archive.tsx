@@ -1,12 +1,11 @@
 import { HeadFC, graphql } from 'gatsby'
 import React from 'react'
 
-import * as style from './archive.css'
-
 import Layout from '@/components/Layout'
 import PostPreview from '@/components/PostPreview'
 import Seo from '@/components/Seo'
 import WriterProfile from '@/components/WriterProfile'
+import * as style from '@/css/archive.css'
 import { raise } from '@/modules/Error'
 
 /**

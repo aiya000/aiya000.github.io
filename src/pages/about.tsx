@@ -1,11 +1,10 @@
 import { HeadFC } from 'gatsby'
 import React from 'react'
 
-import * as style from './about.css'
-
 import meSquareImage from '@/assets/images/me-square.png'
 import Layout from '@/components/Layout'
 import Seo from '@/components/Seo'
+import * as style from '@/css/about.css'
 
 const About: React.FC = () => (
   <Layout>

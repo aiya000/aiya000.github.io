@@ -1,8 +1,6 @@
 import { HeadFC } from 'gatsby'
 import React from 'react'
 
-import * as style from './profile.css'
-
 import etaImage from '@/assets/images/eta.png'
 import nicoImage from '@/assets/images/me-nico.png'
 import meSquareImage from '@/assets/images/me-square.png'
@@ -11,6 +9,7 @@ import muImage from '@/assets/images/mu.png'
 import mu2Image from '@/assets/images/mu2.png'
 import Layout from '@/components/Layout'
 import Seo from '@/components/Seo'
+import * as style from '@/css/profile.css'
 
 const Profile: React.FC = () => (
   <Layout>
