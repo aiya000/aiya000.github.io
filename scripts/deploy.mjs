@@ -26,17 +26,11 @@ const main = async () => {
     echo`tar zxvf /tmp/aiya000.github.io.tar.gz`
     await $`tar zxvf /tmp/aiya000.github.io.tar.gz`.quiet()
     await $`rm /tmp/aiya000.github.io.tar.gz`
-    const sourcePaths = (await $`ls public`)
-      .toString()
-      .split('\n')
-      .filter((x) => x !== '')
-    for (path of sourcePaths) {
-      await $`mv '${path}' .`
-    }
+    await Promise.all((await glob(['public/**/*'])).map((x) => $`mv ${x} .`))
 
     await $`git add -A`
     const date = await $`date`
-    await $`git commit -m "${date.toString()}"`
+    await $`git commit -m ${date}`
 
     await $`git push -u origin public`
     echo`Success!`
