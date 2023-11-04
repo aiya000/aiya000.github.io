@@ -1,0 +1,13 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.ts",
+  "scripts": {
+    "deploy": "zx deploy.mjs"
+  },
+  "author": "aiya000",
+  "devDependencies": {
+    "zx": "^7.2.3"
+  }
+}
