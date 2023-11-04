@@ -3,6 +3,7 @@ import { style, globalStyle } from '@vanilla-extract/css'
 import * as v from '@/css/variables.css'
 
 export const entry = style({
+  width: '80vw', // TODO: なぜか外側からのcssで、widthが設定できなかったので、ここで設定している。たすけて
   backgroundColor: v.color.sea,
   border: `1px solid ${v.color.black}`,
   boxShadow: '1px 1px 0.5em black inset',
