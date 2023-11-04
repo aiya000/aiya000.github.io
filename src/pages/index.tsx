@@ -19,12 +19,14 @@ const IndexPage: React.FC<PageProps<Queries.IndexPageQuery>> = ({ data }) => {
       <h1 className={style.blogName}>aiya000のメモ帳</h1>
 
       <div className={style.body}>
-        <div className={style.postPreviews}>{postPreviews}</div>
-        <WriterProfile className={style.profile} />
-      </div>
+        <div className={style.postPreviewsContainer}>
+          <div className={style.postPreviews}>{postPreviews}</div>
+          <div className={style.viewAll}>
+            <Link to="/archive">全ての記事を表示する</Link>
+          </div>
+        </div>
 
-      <div className={style.viewAll}>
-        <Link to="/archive">全ての記事を表示する</Link>
+        <WriterProfile className={style.profile} />
       </div>
     </Layout>
   )
