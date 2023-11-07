@@ -18,8 +18,8 @@ export const previews = style({
 export const preview = style({
   '@media': {
     [v.mediaMinWidth.tablet]: {
-      width: '28% !important',
-      margin: '32px 16px !important',
+      width: '28%',
+      margin: '32px 16px',
     },
   },
 })
