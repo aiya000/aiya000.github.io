@@ -8,7 +8,8 @@ import { raise } from '@/modules/Error'
  * For compatible with my old blog's URL.
  */
 const PostHtmlRedirect: React.FC<{ data: Queries.PostHtmlRedirectPageQuery }> = ({ data }) => {
-  const url = data.markdownRemark?.fields?.slug ?? raise('.slug is not found.')
+  const postName = data.markdownRemark?.fields?.slug ?? raise('.slug is not found.')
+  const url = `/posts/${postName}`
   React.useEffect(() => {
     setTimeout(() => (location.href = url), 3000)
   })
