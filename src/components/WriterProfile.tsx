@@ -19,7 +19,8 @@ const WriterProfile: React.FC<Props> = ({ className }) => (
 
       <div>
         <p>
-          「<a href="https://aiya000.booth.pm/items/1298622">せつラボ 〜圏論の基本〜</a>」「
+          「<a href="https://aiya000.booth.pm/items/1298622">せつラボ 〜圏論の基本〜</a>」 「
+          <a href="https://aiya000.booth.pm/items/5138923">せつラボ2～雲と天使と関手圏～</a>」 「
           <a href="https://aiya000.booth.pm/items/1040121">矢澤にこ先輩といっしょに代数！</a>
           」を書いています！
         </p>
