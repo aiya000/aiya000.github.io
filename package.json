@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "make-post": "[ -z \"$npm_config_name\" ] && exit 1 || mkdir src/posts/$(date +'%Y-%m-%d')-$npm_config_name && touch src/posts/$(date +'%Y-%m-%d')-$npm_config_name.md",
     "dev": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
