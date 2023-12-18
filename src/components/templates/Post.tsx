@@ -14,6 +14,7 @@ const Post: React.FC<{ data: Queries.PostPageQuery }> = ({ data }) => {
     <div>
       <Layout>
         <article>
+          <h1>{data.markdownRemark.frontmatter.title}</h1>
           <div
             className="markdown-entry"
             dangerouslySetInnerHTML={{
