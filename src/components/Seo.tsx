@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ogImage from '@/assets/images/og-image.png'
+
 export type Props = {
   /**
    * e.g. 'Home', 'About', ...
@@ -14,7 +16,6 @@ const Seo: React.FC<Props> = ({ routeName }) => {
   const siteUrl = 'https://aiya000.github.io'
   const fullTitle = `${title} - ${routeName}`
   const description = 'ギャラクシー・シックス・センスワイ / プログラミング・数学・一次創作'
-  const ogImagePath = '/images/mu.png'
   const twitterAccount = '@public_ai000ya'
 
   return (
@@ -26,13 +27,13 @@ const Seo: React.FC<Props> = ({ routeName }) => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content={title} />
-      <meta property="og:image" content={ogImagePath} />
+      <meta property="og:image" content={ogImage} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={twitterAccount} />
       <meta name="twitter:creator" content={twitterAccount} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={ogImagePath} />
+      <meta name="twitter:image" content={ogImage} />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link
