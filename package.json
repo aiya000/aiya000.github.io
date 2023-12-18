@@ -9,7 +9,9 @@
   ],
   "scripts": {
     "make-post": "[ -z \"$npm_config_name\" ] && exit 1 || mkdir src/posts/$(date +'%Y-%m-%d')-$npm_config_name && touch src/posts/$(date +'%Y-%m-%d')-$npm_config_name.md",
-    "dev": "gatsby develop",
+    "dev": "npm-run-all --parallel dev:server open",
+    "dev:server": "gatsby develop",
+    "open": "wait-on http://localhost:8000 && opener http://localhost:8000",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -65,10 +67,12 @@
     "gatsby-plugin-twitter": "^5.3.1",
     "gatsby-remark-emoji": "^0.0.3",
     "npm-run-all": "^4.1.5",
+    "opener": "^1.5.2",
     "prettier": "^2.7.1",
     "prismjs": "^1.29.0",
     "stylelint": "^14.14.1",
     "typescript": "^4.8.3",
-    "usehooks-ts": "^2.9.1"
+    "usehooks-ts": "^2.9.1",
+    "wait-on": "^7.2.0"
   }
 }
