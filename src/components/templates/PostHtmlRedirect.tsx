@@ -10,14 +10,11 @@ import { raise } from '@/modules/Error'
 const PostHtmlRedirect: React.FC<{ data: Queries.PostHtmlRedirectPageQuery }> = ({ data }) => {
   const postName = data.markdownRemark?.fields?.slug ?? raise('.slug is not found.')
   const url = `/posts/${postName}`
-  React.useEffect(() => {
-    setTimeout(() => (location.href = url), 3000)
-  })
 
   return (
     <Layout>
       <div>
-        Redirecting to <Link to={url}>{url}</Link>...
+        <Link to={url}>{url}</Link>を開いてください。
       </div>
     </Layout>
   )
